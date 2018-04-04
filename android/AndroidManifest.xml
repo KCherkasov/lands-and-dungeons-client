@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ru.kvvartet.landsanddungeonsclient" >
+    package="ru.kvvartet.lndclient" >
 
     <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="27" />
 
@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:theme="@style/GdxTheme" >
         <activity
-            android:name="ru.kvvartet.landsanddungeonsclient.AndroidLauncher"
+            android:name="ru.kvvartet.lndclient.AndroidLauncher"
             android:label="@string/app_name" 
             android:screenOrientation="landscape"
             android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize">

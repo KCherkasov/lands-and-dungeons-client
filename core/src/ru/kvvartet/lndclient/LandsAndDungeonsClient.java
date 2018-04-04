@@ -1,4 +1,4 @@
-package ru.kvvartet.landsanddungeonsclient;
+package ru.kvvartet.lndclient;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;

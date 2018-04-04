@@ -18,7 +18,7 @@ android {
         exclude 'META-INF/robovm/ios/robovm.xml'
     }
     defaultConfig {
-        applicationId "ru.kvvartet.landsanddungeonsclient"
+        applicationId "ru.kvvartet.lndclient"
         minSdkVersion 9
         targetSdkVersion 27
         versionCode 1
@@ -79,7 +79,7 @@ task run(type: Exec) {
     }
 
     def adb = path + "/platform-tools/adb"
-    commandLine "$adb", 'shell', 'am', 'start', '-n', 'ru.kvvartet.landsanddungeonsclient/ru.kvvartet.landsanddungeonsclient.AndroidLauncher'
+    commandLine "$adb", 'shell', 'am', 'start', '-n', 'ru.kvvartet.lndclient/ru.kvvartet.lndclient.AndroidLauncher'
 }
 
 // sets up the Android Eclipse project, using the old Ant based build.
