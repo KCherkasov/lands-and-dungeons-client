@@ -1,26 +1,35 @@
 package ru.kvvartet.lndclient;
 
 import com.badlogic.gdx.Game;
-import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import ru.kvvartet.lndclient.client.states.manager.StateManager;
+import ru.kvvartet.lndclient.client.states.manager.StateStackManager;
+import ru.kvvartet.lndclient.client.states.state.IntroState;
 
 public class LandsAndDungeonsClient extends Game {
 	private SpriteBatch batch;
+	private StateManager stateManager;
 	
 	@Override
-	public void create () {
+	public void create() {
 		batch = new SpriteBatch();
+		stateManager = new StateStackManager(this);
+		pushInitialState();
 	}
 
 	@Override
-	public void render () {
-		Gdx.gl.glClearColor(1, 0, 0, 1);
-		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+	public void render() {
+		stateManager.update(0.0f);
 	}
 	
 	@Override
-	public void dispose () {
+	public void dispose() {
 		batch.dispose();
+		stateManager.requestStateClear();
+		stateManager.update(0.0f);
 	}
+
+	private void pushInitialState() {
+	    stateManager.requestStatePush(new IntroState(stateManager));
+    }
 }
