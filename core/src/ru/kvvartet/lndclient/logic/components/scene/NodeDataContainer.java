@@ -1,7 +1,7 @@
 package ru.kvvartet.lndclient.logic.components.scene;
 
 import com.badlogic.gdx.math.Vector2;
-import com.sun.istack.internal.NotNull;
+import org.jetbrains.annotations.NotNull;
 
 public class NodeDataContainer implements SceneNodeData {
     private Vector2 position;
@@ -14,7 +14,7 @@ public class NodeDataContainer implements SceneNodeData {
                              @NotNull Vector2 dimensions,
                              @NotNull Vector2 origin,
                              @NotNull Vector2 scale,
-                             @NotNull float rotation) {
+                             float rotation) {
         this.position = position;
         this.dimensions = dimensions;
         this.origin = origin;
@@ -23,31 +23,26 @@ public class NodeDataContainer implements SceneNodeData {
     }
 
     @Override
-    @NotNull
-    public Vector2 getPosition() {
+    public @NotNull Vector2 getPosition() {
         return position;
     }
 
     @Override
-    @NotNull
-    public Vector2 getDimension() {
+    public @NotNull Vector2 getDimension() {
         return dimensions;
     }
 
     @Override
-    @NotNull
-    public Vector2 getOrigin() {
+    public @NotNull Vector2 getOrigin() {
         return origin;
     }
 
     @Override
-    @NotNull
-    public Vector2 getScale() {
+    public @NotNull Vector2 getScale() {
         return scale;
     }
 
     @Override
-    @NotNull
     public float getRotation() {
         return rotation;
     }
@@ -73,7 +68,7 @@ public class NodeDataContainer implements SceneNodeData {
     }
 
     @Override
-    public void setRotation(@NotNull float rotation) {
+    public void setRotation(float rotation) {
         this.rotation = rotation;
     }
 }

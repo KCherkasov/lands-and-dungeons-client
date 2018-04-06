@@ -1,7 +1,7 @@
 package ru.kvvartet.lndclient.client.states.manager;
 
 import com.badlogic.gdx.Game;
-import com.sun.istack.internal.NotNull;
+import org.jetbrains.annotations.NotNull;
 import ru.kvvartet.lndclient.client.states.manager.requests.StateClearRequest;
 import ru.kvvartet.lndclient.client.states.manager.requests.StateManagerRequest;
 import ru.kvvartet.lndclient.client.states.manager.requests.StatePopRequest;
@@ -42,8 +42,10 @@ public class StateStackManager implements StateManager {
     public void update(float timeDelta) {
         for (GameState state : states) {
             if (state != null) {
-                if (!game.getScreen().equals(state)) {
+                if (game.getScreen() == null
+                        || !game.getScreen().equals(state)) {
                     game.setScreen(state);
+                    System.out.println(state.getClass().getName());
                 }
                 state.render(timeDelta);
                 if (state.isBlocking()) {
@@ -56,15 +58,15 @@ public class StateStackManager implements StateManager {
 
     private void processRequests() {
         while (!pendingRequests.isEmpty()) {
-            processRequest(pendingRequests.poll());
+            if (pendingRequests.peek() != null) {
+                processRequest(pendingRequests.poll());
+            } else {
+                pendingRequests.poll();
+            }
         }
     }
 
     private void processRequest(@NotNull StateManagerRequest request) {
-        if (request == null) {
-            return;
-        }
-
         if (request.getClass().equals(StatePopRequest.class)) {
             final GameState popped = states.poll();
             if (popped != null) {

@@ -3,7 +3,7 @@ package ru.kvvartet.lndclient.client.states.state;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
-import com.sun.istack.internal.NotNull;
+import org.jetbrains.annotations.NotNull;
 import ru.kvvartet.lndclient.client.states.manager.StateManager;
 
 public abstract class AbstractState extends Stage implements GameState {
@@ -39,8 +39,7 @@ public abstract class AbstractState extends Stage implements GameState {
 
     }
 
-    @NotNull
-    protected float countScale(@NotNull int size, @NotNull Boolean isWidth) {
+    protected float countScale(int size, @NotNull Boolean isWidth) {
         final float denominator = isWidth
                 ? Integer.valueOf(Gdx.graphics.getWidth()).floatValue()
                 : Integer.valueOf(Gdx.graphics.getHeight()).floatValue();

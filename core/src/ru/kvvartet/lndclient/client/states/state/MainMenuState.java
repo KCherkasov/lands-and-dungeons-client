@@ -1,6 +1,6 @@
 package ru.kvvartet.lndclient.client.states.state;
 
-import com.sun.istack.internal.NotNull;
+import org.jetbrains.annotations.NotNull;
 import ru.kvvartet.lndclient.client.states.manager.StateManager;
 
 public class MainMenuState extends AbstractState {
@@ -9,8 +9,7 @@ public class MainMenuState extends AbstractState {
     }
 
     @Override
-    @NotNull
-    public Boolean isBlocking() {
+    public @NotNull Boolean isBlocking() {
         return false;
     }
 

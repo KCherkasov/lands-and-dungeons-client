@@ -1,6 +1,6 @@
 package ru.kvvartet.lndclient.client.states.manager.requests;
 
-import com.sun.istack.internal.NotNull;
+import org.jetbrains.annotations.NotNull;
 import ru.kvvartet.lndclient.client.states.state.GameState;
 
 public class StatePushRequest implements StateManagerRequest {
@@ -10,8 +10,7 @@ public class StatePushRequest implements StateManagerRequest {
         this.gameState = gameState;
     }
 
-    @NotNull
-    public GameState getGameState() {
+    public @NotNull GameState getGameState() {
         return gameState;
     }
 }

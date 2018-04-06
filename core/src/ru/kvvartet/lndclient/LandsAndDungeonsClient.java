@@ -1,6 +1,7 @@
 package ru.kvvartet.lndclient;
 
 import com.badlogic.gdx.Game;
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import ru.kvvartet.lndclient.client.states.manager.StateManager;
 import ru.kvvartet.lndclient.client.states.manager.StateStackManager;
@@ -19,14 +20,14 @@ public class LandsAndDungeonsClient extends Game {
 
 	@Override
 	public void render() {
-		stateManager.update(0.0f);
+		stateManager.update(Gdx.graphics.getDeltaTime());
 	}
 	
 	@Override
 	public void dispose() {
 		batch.dispose();
 		stateManager.requestStateClear();
-		stateManager.update(0.0f);
+		stateManager.update(Gdx.graphics.getDeltaTime());
 	}
 
 	private void pushInitialState() {
