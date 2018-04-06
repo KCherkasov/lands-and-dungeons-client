@@ -20,6 +20,6 @@ public class MainMenuState extends AbstractState {
 
     @Override
     public void render(float timeDelta) {
-
+        clearScreen();
     }
 }

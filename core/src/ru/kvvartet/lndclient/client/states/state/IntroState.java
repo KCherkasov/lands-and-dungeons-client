@@ -2,8 +2,9 @@ package ru.kvvartet.lndclient.client.states.state;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
-import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.InputListener;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
@@ -14,7 +15,6 @@ import ru.kvvartet.lndclient.assetconfigparser.ConfigParser;
 import ru.kvvartet.lndclient.client.states.manager.StateManager;
 import ru.kvvartet.lndclient.client.states.state.configkeys.IntroStateKeys;
 import ru.kvvartet.lndclient.util.BitmapFontGenerator;
-import ru.kvvartet.lndclient.util.Colors;
 import ru.kvvartet.lndclient.util.GenericDefaults;
 
 import java.util.Map;
@@ -31,9 +31,7 @@ public class IntroState extends AbstractState {
 
     @Override
     public void render(float timeDelta) {
-        Gdx.gl.glClearColor(Colors.DARK_GREY_COLOR_PERCENT, Colors.DARK_GREY_COLOR_PERCENT,
-                Colors.DARK_GREY_COLOR_PERCENT, Colors.ALPHA_OPAQUE);
-        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+        clearScreen();
         super.act(timeDelta);
         super.draw();
     }
@@ -69,11 +67,31 @@ public class IntroState extends AbstractState {
 
             if (layoutRoot.getChildren().size > 0) {
                 layoutRoot.row().expandX();
-                layoutRoot.add(label).top().center();
+                layoutRoot.add(label).center().top();
             }
         } else {
             System.err.println("error parsing font asset path");
         }
+        addListener(new InputListener() {
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                disappearOnClick();
+                return true;
+            }
+
+            @Override
+            public boolean keyDown(InputEvent event, int keycode) {
+                disappearOnClick();
+                return true;
+            }
+
+            @Override
+            public boolean keyTyped(InputEvent event, char character) {
+                disappearOnClick();
+                return true;
+            }
+        });
+
     }
 
     private void disappearOnClick() {
