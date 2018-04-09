@@ -7,5 +7,5 @@ import java.util.Map;
 
 public interface AssetConfigParser {
     @Nullable
-    Map<String, String> parseConfig(@NotNull String fileName);
+    Map<String, Map<String, String>> parseConfig(@NotNull String fileName);
 }

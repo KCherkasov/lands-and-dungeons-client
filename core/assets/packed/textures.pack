@@ -1,0 +1,264 @@
+
+textures.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+mage
+  rotate: false
+  xy: 2, 1508
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+MageAngry
+  rotate: false
+  xy: 2, 1006
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+MageAttack
+  rotate: false
+  xy: 504, 1508
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+MageDead
+  rotate: false
+  xy: 2, 504
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+priest
+  rotate: false
+  xy: 504, 1006
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+PriestAngry
+  rotate: false
+  xy: 1006, 1508
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+PriestAttack
+  rotate: false
+  xy: 2, 2
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+PriestDead
+  rotate: false
+  xy: 504, 504
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+Skeleton1Angry
+  rotate: false
+  xy: 1006, 1006
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+skeleton2
+  rotate: false
+  xy: 1508, 1508
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+Skeleton2Angry
+  rotate: false
+  xy: 504, 2
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+Skeleton2Attack
+  rotate: false
+  xy: 1006, 504
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+Skeleton2Dead
+  rotate: false
+  xy: 1508, 1006
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+thief
+  rotate: false
+  xy: 2010, 1508
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+ThiefAngry
+  rotate: false
+  xy: 1006, 2
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+ThiefAttack
+  rotate: false
+  xy: 1508, 504
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+ThiefDead
+  rotate: false
+  xy: 2010, 1006
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+warrior
+  rotate: false
+  xy: 2512, 1508
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+WarriorAngry
+  rotate: false
+  xy: 1508, 2
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+WarriorAttack
+  rotate: false
+  xy: 2010, 504
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+WarriorDead
+  rotate: false
+  xy: 2512, 1006
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+skeleton1
+  rotate: false
+  xy: 3014, 1509
+  size: 499, 499
+  orig: 499, 499
+  offset: 0, 0
+  index: -1
+Skeleton1Attack
+  rotate: false
+  xy: 2010, 3
+  size: 499, 499
+  orig: 499, 499
+  offset: 0, 0
+  index: -1
+Skeleton1Dead
+  rotate: false
+  xy: 2512, 505
+  size: 499, 499
+  orig: 499, 499
+  offset: 0, 0
+  index: -1
+Skeleton1Wounded
+  rotate: false
+  xy: 3014, 1008
+  size: 499, 499
+  orig: 499, 499
+  offset: 0, 0
+  index: -1
+Skeleton2Wounded
+  rotate: false
+  xy: 3515, 1509
+  size: 499, 499
+  orig: 499, 499
+  offset: 0, 0
+  index: -1
+wall0
+  rotate: false
+  xy: 3515, 1436
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1
+wall2
+  rotate: false
+  xy: 4016, 1937
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1
+wall3
+  rotate: false
+  xy: 3515, 1363
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1
+wall1
+  rotate: false
+  xy: 3588, 1437
+  size: 71, 70
+  orig: 71, 70
+  offset: 0, 0
+  index: -1
+FantasyHeroesEditorWarriorAngry
+  rotate: false
+  xy: 4016, 1871
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+FantasyHeroesEditorWarriorAttack
+  rotate: false
+  xy: 3515, 1297
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+FantasyHeroesEditorWarriorDead
+  rotate: false
+  xy: 3588, 1371
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+FantasyHeroesEditorWarriorWounded
+  rotate: false
+  xy: 3661, 1443
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+WarriorWounded
+  rotate: false
+  xy: 3661, 1443
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+grass
+  rotate: false
+  xy: 4016, 1805
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+wall
+  rotate: false
+  xy: 3515, 1231
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1

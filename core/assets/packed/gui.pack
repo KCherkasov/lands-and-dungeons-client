@@ -1,0 +1,124 @@
+
+gui.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+dead
+  rotate: false
+  xy: 2, 417
+  size: 1600, 1600
+  orig: 1600, 1600
+  offset: 0, 0
+  index: -1
+win
+  rotate: false
+  xy: 1604, 1361
+  size: 1710, 656
+  orig: 1710, 656
+  offset: 0, 0
+  index: -1
+lose
+  rotate: false
+  xy: 1604, 666
+  size: 1632, 693
+  orig: 1632, 693
+  offset: 0, 0
+  index: -1
+logo2
+  rotate: false
+  xy: 2, 68
+  size: 1893, 347
+  orig: 1893, 347
+  offset: 0, 0
+  index: -1
+menu
+  rotate: false
+  xy: 3316, 1391
+  size: 626, 626
+  orig: 626, 626
+  offset: 0, 0
+  index: -1
+next_level
+  rotate: false
+  xy: 1897, 38
+  size: 626, 626
+  orig: 626, 626
+  offset: 0, 0
+  index: -1
+banner
+  rotate: false
+  xy: 2525, 73
+  size: 543, 591
+  orig: 543, 591
+  offset: 0, 0
+  index: -1
+thunderball
+  rotate: false
+  xy: 3070, 152
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+fullscreen
+  rotate: false
+  xy: 1604, 464
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+activeTile
+  rotate: false
+  xy: 3238, 1103
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+greenTile
+  rotate: false
+  xy: 3238, 845
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+moveTile
+  rotate: false
+  xy: 3496, 1133
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+redTile
+  rotate: false
+  xy: 3496, 875
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+select
+  rotate: false
+  xy: 3754, 1133
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+bag
+  rotate: false
+  xy: 2, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+settings
+  rotate: false
+  xy: 3070, 86
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+talk
+  rotate: false
+  xy: 1806, 600
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1

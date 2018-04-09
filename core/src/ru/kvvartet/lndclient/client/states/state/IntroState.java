@@ -1,8 +1,9 @@
 package ru.kvvartet.lndclient.client.states.state;
 
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.graphics.Color;
-import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
+import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.InputListener;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
@@ -11,13 +12,14 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.Scaling;
 import org.jetbrains.annotations.NotNull;
-import ru.kvvartet.lndclient.assetconfigparser.ConfigParser;
+import ru.kvvartet.lndclient.assets.holders.fonts.BitmapFontAssetHolder;
+import ru.kvvartet.lndclient.assets.holders.graphics.TextureAtlasAssetHolder;
+import ru.kvvartet.lndclient.assets.manager.ClientAssetManagerClassImpl;
 import ru.kvvartet.lndclient.client.states.manager.StateManager;
 import ru.kvvartet.lndclient.client.states.state.configkeys.IntroStateKeys;
-import ru.kvvartet.lndclient.util.BitmapFontGenerator;
-import ru.kvvartet.lndclient.util.GenericDefaults;
-
-import java.util.Map;
+import ru.kvvartet.lndclient.client.states.state.configkeys.TextureAtlasesKeys;
+import ru.kvvartet.lndclient.util.assets.Extensions;
+import ru.kvvartet.lndclient.util.assets.FontSizeSuffices;
 
 public class IntroState extends AbstractState {
     public IntroState(@NotNull StateManager stateManager) {
@@ -38,29 +40,44 @@ public class IntroState extends AbstractState {
 
     @Override
     public void setupStage() {
-        final Map<String, String> keys = new ConfigParser().parseConfig("core/assetconfig/IntroState.json");
         final Table layoutRoot = new Table();
         layoutRoot.setFillParent(true);
         addActor(layoutRoot);
-        if (keys == null) {
-            return;
-        }
 
-        if (keys.containsKey(IntroStateKeys.LOGO_KEY)) {
-            final Texture logoTexture = new Texture(Gdx.files.internal(
-                    keys.get(IntroStateKeys.LOGO_KEY)));
+        if (ClientAssetManagerClassImpl.getInstance().isConfigured()) {
+            final TextureAtlasAssetHolder textureAtlasAssetHolder =
+                    ClientAssetManagerClassImpl.getInstance().getTextureAtlasAssets();
+            if (textureAtlasAssetHolder == null) {
+                Gdx.app.error(getClass().getName(), "TextureAsset holder is not initialized");
+                return;
+            }
+            final TextureAtlas guiAtlas = textureAtlasAssetHolder.getAsset(TextureAtlasesKeys.GUI_ATLAS_KEY);
+            if (guiAtlas == null) {
+                Gdx.app.error(getClass().getName(),
+                        "TextureAtlas " + TextureAtlasesKeys.GUI_ATLAS_KEY + " doesn\'t exist");
+                return;
+            }
+            final TextureRegion logoTexture = guiAtlas.findRegion(TextureAtlasesKeys.GUI_LOGO_KEY);
             final Image logoImage = new Image(logoTexture);
             logoImage.setOrigin(Align.center);
             logoImage.setScaling(Scaling.fillX);
             layoutRoot.add(logoImage).center().bottom();
-        } else {
-            System.err.println("error parsing logo asset path");
-        }
 
-        if (keys.containsKey(IntroStateKeys.FONT_KEY)) {
             final Label.LabelStyle style = new Label.LabelStyle();
-            style.font = BitmapFontGenerator.generateFont(keys.get(IntroStateKeys.FONT_KEY),
-                    GenericDefaults.CAPTION_FONT_SIZE, Color.WHITE);
+            final BitmapFontAssetHolder fontAssetHolder = ClientAssetManagerClassImpl.getInstance().getFontAssets();
+            if (fontAssetHolder == null) {
+                Gdx.app.error(getClass().getName(), "BitmapFont holder isn\'t initialized");
+                return;
+            }
+            final BitmapFont font = fontAssetHolder.getAsset(
+                    IntroStateKeys.FONT_KEY + FontSizeSuffices.FS_CAPTION.asText() + Extensions.TTF);
+            if (font == null) {
+                Gdx.app.error(getClass().getName(),
+                        "BitmapFont " + IntroStateKeys.FONT_KEY
+                                + FontSizeSuffices.FS_CAPTION.asText() + Extensions.TTF + " doesn\'t exist");
+                return;
+            }
+            style.font = font;
 
             final Label label = new Label("Press any key", style);
             label.setOrigin(Align.center);
@@ -70,8 +87,9 @@ public class IntroState extends AbstractState {
                 layoutRoot.add(label).center().top();
             }
         } else {
-            System.err.println("error parsing font asset path");
+            Gdx.app.error(getClass().getName(), "Asset manager isn\'t configured");
         }
+
         addListener(new InputListener() {
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {

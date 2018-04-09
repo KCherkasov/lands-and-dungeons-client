@@ -1,0 +1,32 @@
+{
+  "Texture" : {
+    "class": "java.util.HashMap"
+  },
+
+  "TextureRegion" : {
+    "class": "java.util.HashMap"
+  },
+
+  "TextureAtlas" : {
+    "class": "java.util.HashMap",
+    "textures" : "core/assets/packed/textures.pack",
+    "gui" : "core/assets/packed/gui.pack"
+  },
+
+  "Sound" : {
+    "class": "java.util.HashMap"
+  },
+
+  "Music" : {
+    "class": "java.util.HashMap"
+  },
+
+  "Font" : {
+    "class": "java.util.HashMap",
+    "sansation" : "core/assets/fonts/Sansation.ttf"
+  },
+
+  "Skin" : {
+    "class": "java.util.HashMap"
+  }
+}
