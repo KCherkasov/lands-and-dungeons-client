@@ -10,6 +10,7 @@ import ru.kvvartet.lndclient.client.states.manager.StateManager;
 import ru.kvvartet.lndclient.client.states.manager.StateStackManager;
 import ru.kvvartet.lndclient.client.states.state.IntroState;
 import ru.kvvartet.lndclient.preferences.AbstractPreferences;
+import ru.kvvartet.lndclient.preferences.AndroidPreferences;
 import ru.kvvartet.lndclient.preferences.DesktopPreferences;
 
 public class LandsAndDungeonsClient extends Game {
@@ -68,6 +69,6 @@ public class LandsAndDungeonsClient extends Game {
     }
 
     private void configAndroid() {
-
+        AndroidPreferences.getInstance().load();
     }
 }

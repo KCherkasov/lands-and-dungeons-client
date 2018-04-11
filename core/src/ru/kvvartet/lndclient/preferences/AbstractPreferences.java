@@ -4,6 +4,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Preferences;
 import org.jetbrains.annotations.NotNull;
 
+@SuppressWarnings("unused")
 public abstract class AbstractPreferences {
     public static final String APP_NAME = "Lands and Dungeons";
 
@@ -14,6 +15,9 @@ public abstract class AbstractPreferences {
 
     public static final String VSYNC_ENABLED_KEY = "vsyncEnabled";
     public static final String HDPI_ENABLED_KEY = "hdpiEnabled";
+
+    private static final Float MIN_VOLUME = 0.0f;
+    private static final Float MAX_VOLUME = 1.0f;
 
     private static final Boolean DEFAULT_SOUND_ENABLED = true;
     private static final Boolean DEFAULT_MUSIC_ENABLED = true;
@@ -36,8 +40,9 @@ public abstract class AbstractPreferences {
     protected AbstractPreferences(@NotNull String preferencesFile) {
         preferences = Gdx.app.getPreferences(preferencesFile);
         if (preferences.get().isEmpty()) {
+            fill();
+        } else {
             load();
-            save();
         }
     }
 
@@ -90,5 +95,10 @@ public abstract class AbstractPreferences {
         musicVolume = preferences.getFloat(MUSIC_VOLUME_KEY, DEFAULT_MUSIC_VOLUME);
         vsyncEnabled = preferences.getBoolean(VSYNC_ENABLED_KEY, DEFAULT_VSYNC_ENABLED);
         hdpiEnabled = preferences.getBoolean(HDPI_ENABLED_KEY, DEFAULT_HDPI_ENABLED);
+    }
+
+    private void fill() {
+        load();
+        save();
     }
 }

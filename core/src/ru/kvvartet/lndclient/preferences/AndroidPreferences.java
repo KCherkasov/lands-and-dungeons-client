@@ -11,7 +11,7 @@ public final class AndroidPreferences extends AbstractPreferences {
         super(SETTINGS_FILE_NAME);
     }
 
-    public @NotNull AndroidPreferences getInstance() {
+    public static @NotNull AndroidPreferences getInstance() {
         return INSTANCE;
     }
 }
