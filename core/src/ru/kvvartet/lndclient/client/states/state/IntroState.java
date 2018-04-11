@@ -14,7 +14,7 @@ import com.badlogic.gdx.utils.Scaling;
 import org.jetbrains.annotations.NotNull;
 import ru.kvvartet.lndclient.assets.holders.fonts.BitmapFontAssetHolder;
 import ru.kvvartet.lndclient.assets.holders.graphics.TextureAtlasAssetHolder;
-import ru.kvvartet.lndclient.assets.manager.ClientAssetManagerClassImpl;
+import ru.kvvartet.lndclient.assets.manager.ClientAssetManagerImpl;
 import ru.kvvartet.lndclient.client.states.manager.StateManager;
 import ru.kvvartet.lndclient.client.states.state.configkeys.IntroStateKeys;
 import ru.kvvartet.lndclient.client.states.state.configkeys.TextureAtlasesKeys;
@@ -44,9 +44,9 @@ public class IntroState extends AbstractState {
         layoutRoot.setFillParent(true);
         addActor(layoutRoot);
 
-        if (ClientAssetManagerClassImpl.getInstance().isConfigured()) {
+        if (ClientAssetManagerImpl.getInstance().isConfigured()) {
             final TextureAtlasAssetHolder textureAtlasAssetHolder =
-                    ClientAssetManagerClassImpl.getInstance().getTextureAtlasAssets();
+                    ClientAssetManagerImpl.getInstance().getTextureAtlasAssets();
             if (textureAtlasAssetHolder == null) {
                 Gdx.app.error(getClass().getName(), "TextureAsset holder is not initialized");
                 return;
@@ -64,7 +64,7 @@ public class IntroState extends AbstractState {
             layoutRoot.add(logoImage).center().bottom();
 
             final Label.LabelStyle style = new Label.LabelStyle();
-            final BitmapFontAssetHolder fontAssetHolder = ClientAssetManagerClassImpl.getInstance().getFontAssets();
+            final BitmapFontAssetHolder fontAssetHolder = ClientAssetManagerImpl.getInstance().getFontAssets();
             if (fontAssetHolder == null) {
                 Gdx.app.error(getClass().getName(), "BitmapFont holder isn\'t initialized");
                 return;

@@ -9,7 +9,7 @@ import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.Scaling;
 import org.jetbrains.annotations.NotNull;
 import ru.kvvartet.lndclient.assets.holders.graphics.TextureAtlasAssetHolder;
-import ru.kvvartet.lndclient.assets.manager.ClientAssetManagerClassImpl;
+import ru.kvvartet.lndclient.assets.manager.ClientAssetManagerImpl;
 import ru.kvvartet.lndclient.client.states.manager.StateManager;
 import ru.kvvartet.lndclient.client.states.state.configkeys.TextureAtlasesKeys;
 
@@ -30,9 +30,9 @@ public class MainMenuState extends AbstractState {
         layoutRoot.top().center();
         addActor(layoutRoot);
 
-        if (ClientAssetManagerClassImpl.getInstance().isConfigured()) {
+        if (ClientAssetManagerImpl.getInstance().isConfigured()) {
             final TextureAtlasAssetHolder textureAtlasAssetHolder =
-                    ClientAssetManagerClassImpl.getInstance().getTextureAtlasAssets();
+                    ClientAssetManagerImpl.getInstance().getTextureAtlasAssets();
             if (textureAtlasAssetHolder == null) {
                 Gdx.app.error(getClass().getName(), "TextureAtlas holder isn't initialized");
                 return;

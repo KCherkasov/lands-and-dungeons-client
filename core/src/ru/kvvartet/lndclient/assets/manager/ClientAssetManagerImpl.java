@@ -35,7 +35,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public final class ClientAssetManagerClassImpl implements ClientAssetManager {
+public final class ClientAssetManagerImpl implements ClientAssetManager {
     private static final String ASSET_LOADING_ERROR = "asset loading error at ";
     private static final String CONFIG_NPE_ERROR = "config data missing";
     private static final String ASSET_MANAGER_CONFIG_PATH = "core/assetconfig/AssetManager.json";
@@ -60,7 +60,7 @@ public final class ClientAssetManagerClassImpl implements ClientAssetManager {
     private TextureAtlasAssetHolder textureAtlasAssets = null;
     private SkinAssetHolder skinAssets = null;
 
-    private ClientAssetManagerClassImpl() {}
+    private ClientAssetManagerImpl() {}
 
     @Override
     @SuppressWarnings("ParameterHidesMemberVariable")
@@ -162,7 +162,7 @@ public final class ClientAssetManagerClassImpl implements ClientAssetManager {
 
     public static @NotNull ClientAssetManager getInstance() {
         if (instance == null) {
-            instance = new ClientAssetManagerClassImpl();
+            instance = new ClientAssetManagerImpl();
         }
         return instance;
     }
