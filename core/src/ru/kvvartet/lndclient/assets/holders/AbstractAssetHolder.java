@@ -54,11 +54,11 @@ public abstract class AbstractAssetHolder<T> implements AssetHolder<T> {
     }
 
     protected void onError(@NotNull String assetName, @NotNull AssetManager manager) {
-        if (!areClassesMet(assetName, manager)) {
-            Gdx.app.error(getClass().getName(), ASSET_DOES_NOT_EXIST + assetName);
-        } else {
+        if (manager.getAssetType(assetName) != null) {
             Gdx.app.error(getClass().getName(), WRONG_ASSET_TYPE + getAssetClass().getSimpleName()
                     + INSTEAD + manager.getAssetType(assetName).getSimpleName());
+        } else {
+            Gdx.app.error(getClass().getName(), ASSET_DOES_NOT_EXIST + assetName);
         }
     }
 }
