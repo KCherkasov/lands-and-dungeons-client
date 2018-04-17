@@ -5,15 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49567ccf-1451-4f9d-be28-89b6c925fe07" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/gui/elements/UiElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/gui/screens/parts/HudScreenPart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/assetconfig/AssetManager.json" beforeDir="false" afterPath="$PROJECT_DIR$/core/assetconfig/AssetManager.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/assets/fonts/font-export.fnt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/assets/fonts/font-medium-export.fnt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/assets/fonts/font-small-export.fnt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/assets/fonts/font-title-export.fnt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/assets/packed/sgx-ui.json" beforeDir="false" afterPath="$PROJECT_DIR$/core/assets/packed/sgx-ui.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/AbstractAssetHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/AbstractAssetHolder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lands-and-dungeons-client.iws" beforeDir="false" afterPath="$PROJECT_DIR$/lands-and-dungeons-client.iws" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -100,8 +91,8 @@
       <file leaf-file-name="LandsAndDungeonsClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/LandsAndDungeonsClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="59" column="74" selection-start-line="59" selection-start-column="74" selection-end-line="59" selection-end-column="74" />
+            <state relative-caret-position="187">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2490#2491#0" expanded="true" />
@@ -111,19 +102,73 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoadingScreen.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoadingScreen.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/LoadingScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="218">
+              <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntroState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/IntroState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientAssetManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/manager/ClientAssetManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientAssetManagerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/manager/ClientAssetManagerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="106" column="30" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoadingStateKeys.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/LoadingStateKeys.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractState.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="HudScreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/gui/screens/HudScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="68">
               <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -132,43 +177,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AssetManager.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/assetconfig/AssetManager.json">
+      <file leaf-file-name="SgxUiSkinKeys.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/configs/SgxUiSkinKeys.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sgx-ui.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/assets/packed/sgx-ui.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractAssetHolder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/AbstractAssetHolder.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="BitmapFontAssetHolderImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/fonts/BitmapFontAssetHolderImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="50" column="75" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SkinAssetHolderImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/skins/SkinAssetHolderImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="51" selection-start-column="51" selection-end-column="51" />
+            <state relative-caret-position="354">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
@@ -187,8 +200,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -2589,10 +2602,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/scene/SceneNodeData.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/scene/NodeDataContainer.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/Colors.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractState.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/AbstractAsset.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/graphics/TextureAssetHolder.java" />
@@ -2621,7 +2630,6 @@
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/TextureAtlasesKeys.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/MainMenuState.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assetconfigparser/ConfigParser.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/manager/ClientAssetManager.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/IntroState.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/fonts/BitmapFontAssetHolderImpl.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/manager/ClientAssetManagerClassImpl.java" />
@@ -2631,7 +2639,6 @@
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/preferences/DesktopPreferences.java" />
         <option value="$PROJECT_DIR$/desktop/src/ru/kvvartet/lndclient/desktop/DesktopLauncher.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/preferences/AndroidPreferences.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/LandsAndDungeonsClient.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/preferences/AbstractPreferences.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/gui/HudScreen.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/gui/screens/HudScreen.java" />
@@ -2640,6 +2647,12 @@
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/AbstractAssetHolder.java" />
         <option value="$PROJECT_DIR$/core/assetconfig/AssetManager.json" />
         <option value="$PROJECT_DIR$/core/assets/packed/sgx-ui.json" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/configs/SgxUiSkinKeys.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/manager/ClientAssetManager.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/LoadingStateKeys.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/LandsAndDungeonsClient.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/manager/ClientAssetManagerImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/LoadingScreen.java" />
       </list>
     </option>
   </component>
@@ -2679,6 +2692,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2736,64 +2751,7 @@
               <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="assetconfigparser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="holders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="holders" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="holders" type="462c0819:PsiDirectoryNode" />
-              <item name="graphics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="holders" type="462c0819:PsiDirectoryNode" />
-              <item name="skins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="holders" type="462c0819:PsiDirectoryNode" />
-              <item name="sound" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
@@ -2819,86 +2777,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lndclient" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="elements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="parts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="renderer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="states" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="states" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="states" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-              <item name="requests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
@@ -2924,48 +2803,6 @@
             <path>
               <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
               <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="state" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="preferences" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="desktop" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
@@ -2973,8 +2810,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3127,7 +2962,8 @@
       <workItem from="1523448710307" duration="19692000" />
       <workItem from="1523567754254" duration="1795000" />
       <workItem from="1523798160180" duration="5482000" />
-      <workItem from="1523912653739" duration="5783000" />
+      <workItem from="1523912653739" duration="7733000" />
+      <workItem from="1523944225694" duration="10358000" />
     </task>
     <task id="LOCAL-00001" summary="sample app built on desktop and android">
       <created>1522875653610</created>
@@ -3213,11 +3049,25 @@
       <option name="project" value="LOCAL" />
       <updated>1523915750957</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="-- new assets">
+      <created>1523919194840</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1523919194840</updated>
+    </task>
+    <task id="LOCAL-00014" summary="-- Loading screen added">
+      <created>1523951403175</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1523951403175</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104165000" />
+    <option name="totallyTimeSpent" value="116473000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3252,10 +3102,10 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32838285" />
       <window_info id="Captures" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Learn" order="8" />
       <window_info anchor="right" id="Gradle" order="7" weight="0.32980332" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -3288,7 +3138,8 @@
     <MESSAGE value="-- preferences support added&#10;-- less hardcode and config-like .java files" />
     <MESSAGE value="-- preferences fix" />
     <MESSAGE value="-- new assets" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- new assets" />
+    <MESSAGE value="-- Loading screen added" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Loading screen added" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -3298,14 +3149,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/assetconfig/MainMenuState.json" />
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/graphics/TextureAssetHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/graphics/TextureRegionAssetHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -3436,27 +3279,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/manager/ClientAssetManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/preferences/GamePreferences.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/manager/ClientAssetManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="302" column="100" selection-start-line="302" selection-start-column="100" selection-end-line="302" selection-end-column="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/AndroidDefaults.java" />
     <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/DesktopDefaults.java" />
     <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/GenericDefaults.java" />
@@ -3489,13 +3312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/IntroState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/IntroStateKeys.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -3513,29 +3329,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/LandsAndDungeonsClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="59" column="74" selection-start-line="59" selection-start-column="74" selection-end-line="59" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2490#2491#0" expanded="true" />
-            <element signature="e#2545#2546#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/MainMenuStateKeys.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/LoadingScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -3550,23 +3347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/gui/screens/HudScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/gui/screens/parts/HudScreenPart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -3591,9 +3371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/AbstractAssetHolder.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/assetconfig/AssetManager.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -3601,10 +3378,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/gui/screens/HudScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/gui/screens/parts/HudScreenPart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/assets/packed/sgx-ui.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="8823">
+          <caret line="519" column="1" selection-start-line="519" selection-start-column="1" selection-end-line="519" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/configs/SgxUiSkinKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractState.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/LoadingStateKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/manager/ClientAssetManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/LandsAndDungeonsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2490#2491#0" expanded="true" />
+            <element signature="e#2545#2546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/IntroState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/manager/ClientAssetManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="106" column="30" selection-start-line="106" selection-start-column="30" selection-end-line="106" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/LoadingScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="47" column="41" lean-forward="true" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
