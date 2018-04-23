@@ -49,13 +49,12 @@ public class MainMenuState extends AbstractState {
             final TextureAtlasAssetHolder textureAtlasAssetHolder =
                     ClientAssetManagerImpl.getInstance().getTextureAtlasAssets();
             if (textureAtlasAssetHolder == null) {
-                Gdx.app.error(getClass().getName(), "TextureAtlas holder isn't initialized");
+                error(TEXTURE_ATLAS_HOLDER_MISSING);
                 return;
             }
             final TextureAtlas guiAtlas = textureAtlasAssetHolder.getAsset(TextureAtlasesKeys.GUI_ATLAS_KEY);
             if (guiAtlas == null) {
-                Gdx.app.error(getClass().getName(),
-                        "TextureAtlas " + TextureAtlasesKeys.GUI_ATLAS_KEY + " doesn\'t exist");
+                error(TEXTURE_ATLAS_MISSING + TextureAtlasesKeys.GUI_ATLAS_KEY);
                 return;
             }
             final TextureRegion logoTexture = guiAtlas.findRegion(TextureAtlasesKeys.GUI_LOGO_KEY);
@@ -79,7 +78,7 @@ public class MainMenuState extends AbstractState {
             layoutRoot.row();
             layoutRoot.add(buttonsWithBackground).center().top();
         } else {
-            Gdx.app.error(getClass().getName(), "Asset manager isn't loaded");
+            error(ASSET_MANAGER_NOT_CONFIGURED);
         }
     }
 
@@ -135,6 +134,7 @@ public class MainMenuState extends AbstractState {
                 if (actor.getClass().equals(TextButton.class)) {
                     defaultOnClickButtonCallback(
                             ((TextButton)actor).getLabel().getText().toString());
+                    aboutButtonOnClickCallback();
                 }
             }
         });
@@ -161,5 +161,10 @@ public class MainMenuState extends AbstractState {
 
     private void exitButtonOnClickCallback() {
         Gdx.app.exit();
+    }
+
+    private void aboutButtonOnClickCallback() {
+        stateManager.requestStatePop();
+        stateManager.requestStatePush(new AboutState(stateManager));
     }
 }

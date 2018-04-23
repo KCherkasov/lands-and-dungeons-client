@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49567ccf-1451-4f9d-be28-89b6c925fe07" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/core/assets/screendata/AboutScreen.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AboutState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/AboutStateKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractState.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/IntroState.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/IntroState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/MainMenuState.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/MainMenuState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/IntroStateKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/IntroStateKeys.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/MainMenuStateKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/MainMenuStateKeys.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lands-and-dungeons-client.iws" beforeDir="false" afterPath="$PROJECT_DIR$/lands-and-dungeons-client.iws" afterDir="false" />
     </list>
@@ -90,44 +96,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LandsAndDungeonsClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/LandsAndDungeonsClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainMenuState.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainMenuState.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/MainMenuState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="78" column="28" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+            <state relative-caret-position="274">
+              <caret line="166" column="8" selection-start-line="166" selection-start-column="8" selection-end-line="166" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AboutState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
               <folding>
-                <element signature="e#4344#4703#0" expanded="true" />
-                <element signature="e#4702#4703#0" expanded="true" />
-                <element signature="e#4965#5324#0" expanded="true" />
-                <element signature="e#5323#5324#0" expanded="true" />
-                <element signature="e#5585#5944#0" expanded="true" />
-                <element signature="e#5943#5944#0" expanded="true" />
-                <element signature="e#6763#6959#0" expanded="true" />
-                <element signature="e#6958#6959#0" expanded="true" />
-                <element signature="e#6888#6889#0" expanded="true" />
-                <element signature="e#6918#6919#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#1416#1447#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SgxUiSkinKeys.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/configs/SgxUiSkinKeys.java">
+      <file leaf-file-name="IntroState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/IntroState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="291">
+              <caret line="117" column="5" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="81" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1685#1686#0" expanded="true" />
+                <element signature="e#1750#1751#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,8 +148,26 @@
       <file leaf-file-name="TextureAtlasesKeys.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/TextureAtlasesKeys.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="34">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutScreen.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/assets/screendata/AboutScreen.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntroStateKeys.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/IntroStateKeys.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -2548,10 +2579,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/AbstractAsset.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/graphics/TextureAssetHolder.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/graphics/TextureRegionAssetHolder.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/fonts/BitmapFontAssetHolder.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/AssetHolder.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/graphics/TextureAssetHolderImpl.java" />
@@ -2569,11 +2596,9 @@
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/manager/AssetConfigKeys.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/skins/SkinAssetHolder.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/skins/SkinAssetHolderImpl.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/IntroStateKeys.java" />
         <option value="$PROJECT_DIR$/core/assetconfig/TexturesAtlasRegions.json" />
         <option value="$PROJECT_DIR$/core/assetconfig/GuiAtlasRegions.json" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assetconfigparser/ConfigParser.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/IntroState.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/fonts/BitmapFontAssetHolderImpl.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/manager/ClientAssetManagerClassImpl.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/preferences/GamePreferences.java" />
@@ -2597,8 +2622,14 @@
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/manager/ClientAssetManagerImpl.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/LoadingScreen.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/TextureAtlasesKeys.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/IntroStateKeys.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/MainMenuStateKeys.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/IntroState.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractState.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/AboutStateKeys.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/MainMenuState.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AboutState.java" />
+        <option value="$PROJECT_DIR$/core/assets/screendata/AboutScreen.json" />
       </list>
     </option>
   </component>
@@ -2680,6 +2711,13 @@
               <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
               <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="screendata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -2688,6 +2726,14 @@
               <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lndclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
+              <item name="assetconfigparser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
@@ -2753,9 +2799,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2911,7 +2957,8 @@
       <workItem from="1523912653739" duration="7733000" />
       <workItem from="1523944225694" duration="10358000" />
       <workItem from="1523978489444" duration="7360000" />
-      <workItem from="1524141929942" duration="12697000" />
+      <workItem from="1524141929942" duration="13046000" />
+      <workItem from="1524514512402" duration="10020000" />
     </task>
     <task id="LOCAL-00001" summary="sample app built on desktop and android">
       <created>1522875653610</created>
@@ -3018,11 +3065,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523978633141</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="-- main menu screen buttons added (with temporary callbacks atm)">
+      <created>1524182155446</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1524182155446</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136530000" />
+    <option name="totallyTimeSpent" value="146899000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3095,7 +3149,8 @@
     <MESSAGE value="-- preferences fix" />
     <MESSAGE value="-- new assets" />
     <MESSAGE value="-- Loading screen added" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- Loading screen added" />
+    <MESSAGE value="-- main menu screen buttons added (with temporary callbacks atm)" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- main menu screen buttons added (with temporary callbacks atm)" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -3105,27 +3160,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/graphics/TextureAtlasAssetHolderImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/assets/Extensions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/assets/FontSizeSuffices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/sound/SoundAssetHolderImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -3233,13 +3267,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/assetconfig/AssetManager.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/gui/screens/HudScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -3258,23 +3285,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8823">
           <caret line="519" column="1" selection-start-line="519" selection-start-column="1" selection-end-line="519" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/LoadingStateKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/LoadingScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3306,30 +3316,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/IntroState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assetconfigparser/ConfigParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -3383,7 +3369,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/LandsAndDungeonsClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state>
           <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -3391,24 +3377,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/TextureAtlasesKeys.java">
+    <entry file="file://$PROJECT_DIR$/core/assetconfig/AssetManager.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="325">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assetconfigparser/ConfigParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/MainMenuStateKeys.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/IntroStateKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -3419,22 +3405,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/IntroStateKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/LoadingStateKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/LoadingScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="36" column="55" lean-forward="true" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="81" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+            <element signature="e#1750#1751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/AboutStateKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/TextureAtlasesKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/IntroState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="117" column="5" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/MainMenuState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="78" column="28" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+        <state relative-caret-position="274">
+          <caret line="166" column="8" selection-start-line="166" selection-start-column="8" selection-end-line="166" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AboutState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
           <folding>
-            <element signature="e#4344#4703#0" expanded="true" />
-            <element signature="e#4702#4703#0" expanded="true" />
-            <element signature="e#4965#5324#0" expanded="true" />
-            <element signature="e#5323#5324#0" expanded="true" />
-            <element signature="e#5585#5944#0" expanded="true" />
-            <element signature="e#5943#5944#0" expanded="true" />
-            <element signature="e#6763#6959#0" expanded="true" />
-            <element signature="e#6958#6959#0" expanded="true" />
-            <element signature="e#6888#6889#0" expanded="true" />
-            <element signature="e#6918#6919#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#1416#1447#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/assets/screendata/AboutScreen.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>

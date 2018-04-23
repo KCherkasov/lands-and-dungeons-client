@@ -9,6 +9,13 @@ import ru.kvvartet.lndclient.client.states.manager.StateManager;
 import ru.kvvartet.lndclient.util.Colors;
 
 public abstract class AbstractState extends Stage implements GameState {
+    protected static final String TEXTURE_ATLAS_MISSING = "TextureAtlas doesn\'t exist: ";
+    protected static final String BITMAP_FONT_MISSING = "BitmapFont doesn\'t exist: ";
+    protected static final String BITMAP_FONT_ASSET_HOLDER_MISSING = "BitmapFontAssetHolder not configured";
+    protected static final String ASSET_MANAGER_NOT_CONFIGURED = "AssetManager not configured";
+    protected static final String TEXTURE_ATLAS_HOLDER_MISSING = "TextureAtlas asset holder is not initialized";
+    protected static final String CONFIG_NOT_PARSED = "config file not parsed: ";
+
     protected final StateManager stateManager;
 
     public AbstractState(@NotNull StateManager stateManager) {
@@ -52,5 +59,9 @@ public abstract class AbstractState extends Stage implements GameState {
                 ? Integer.valueOf(Gdx.graphics.getWidth()).floatValue()
                 : Integer.valueOf(Gdx.graphics.getHeight()).floatValue();
         return Integer.valueOf(size).floatValue() / denominator;
+    }
+
+    protected void error(@NotNull String errorMessage) {
+        Gdx.app.error(getClass().getName(), errorMessage);
     }
 }
