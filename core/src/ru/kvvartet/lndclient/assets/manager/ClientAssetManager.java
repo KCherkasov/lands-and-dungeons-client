@@ -20,6 +20,8 @@ public interface ClientAssetManager extends Disposable, AssetErrorListener {
 
     @NotNull AssetManager getAssetManager();
 
+    void preload();
+
     @Nullable Map<String, Map<String, String>> getConfig();
 
     @NotNull Boolean isLoaded();

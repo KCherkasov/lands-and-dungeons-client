@@ -28,6 +28,7 @@ import ru.kvvartet.lndclient.assets.holders.sound.MusicAssetHolder;
 import ru.kvvartet.lndclient.assets.holders.sound.MusicAssetHolderImpl;
 import ru.kvvartet.lndclient.assets.holders.sound.SoundAssetHolder;
 import ru.kvvartet.lndclient.assets.holders.sound.SoundAssetHolderImpl;
+import ru.kvvartet.lndclient.client.states.state.configkeys.LoadingStateKeys;
 import ru.kvvartet.lndclient.util.assets.Extensions;
 import ru.kvvartet.lndclient.util.assets.FontSizeSuffices;
 
@@ -158,6 +159,19 @@ public final class ClientAssetManagerImpl implements ClientAssetManager {
     @Override
     public @Nullable SkinAssetHolder getSkinAssets() {
         return skinAssets;
+    }
+
+    @Override
+    public void preload() {
+        assetManager.finishLoadingAsset(makeFontPreloadTag(
+                LoadingStateKeys.PRELOAD_FONT_KEY, FontSizeSuffices.FS_SMALL));
+        assetManager.finishLoadingAsset(makeFontPreloadTag(
+                LoadingStateKeys.PRELOAD_FONT_KEY, FontSizeSuffices.FS_TEXT));
+        assetManager.finishLoadingAsset(makeFontPreloadTag(
+                LoadingStateKeys.PRELOAD_FONT_KEY, FontSizeSuffices.FS_BIG));
+        assetManager.finishLoadingAsset(makeFontPreloadTag(
+                LoadingStateKeys.PRELOAD_FONT_KEY, FontSizeSuffices.FS_CAPTION));
+        configureFontAssets();
     }
 
     public static @NotNull ClientAssetManager getInstance() {
@@ -308,5 +322,9 @@ public final class ClientAssetManagerImpl implements ClientAssetManager {
         fontParameters.fontParameters.color = color;
 
         assetManager.load(shortFontName, BitmapFont.class, fontParameters);
+    }
+
+    private @NotNull String makeFontPreloadTag(@NotNull String name, @NotNull FontSizeSuffices suffix) {
+        return name + suffix.asText() + Extensions.TTF;
     }
 }

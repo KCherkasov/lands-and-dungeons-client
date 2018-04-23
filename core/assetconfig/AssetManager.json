@@ -10,7 +10,8 @@
   "TextureAtlas" : {
     "class": "java.util.HashMap",
     "textures" : "core/assets/packed/textures.pack",
-    "gui" : "core/assets/packed/gui.pack"
+    "gui" : "core/assets/packed/gui.pack",
+    "sgx-ui" : "core/assets/packed/sgx-ui.atlas"
   },
 
   "Sound" : {
@@ -27,6 +28,7 @@
   },
 
   "Skin" : {
-    "class": "java.util.HashMap"
+    "class": "java.util.HashMap",
+    "sgx-ui": "core/assets/packed/sgx-ui.json"
   }
 }

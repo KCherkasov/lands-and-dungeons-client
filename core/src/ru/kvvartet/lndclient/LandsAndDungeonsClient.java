@@ -8,7 +8,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import ru.kvvartet.lndclient.assets.manager.ClientAssetManagerImpl;
 import ru.kvvartet.lndclient.client.states.manager.StateManager;
 import ru.kvvartet.lndclient.client.states.manager.StateStackManager;
-import ru.kvvartet.lndclient.client.states.state.IntroState;
+import ru.kvvartet.lndclient.client.states.state.LoadingScreen;
 import ru.kvvartet.lndclient.preferences.AbstractPreferences;
 import ru.kvvartet.lndclient.preferences.AndroidPreferences;
 import ru.kvvartet.lndclient.preferences.DesktopPreferences;
@@ -22,9 +22,6 @@ public class LandsAndDungeonsClient extends Game {
 		configure();
 		batch = new SpriteBatch();
 		ClientAssetManagerImpl.getInstance().initialize(new AssetManager());
-		// TODO: make a proper loading screen and push it as initial state
-        ClientAssetManagerImpl.getInstance().getAssetManager().finishLoading();
-        ClientAssetManagerImpl.getInstance().configureHolders();
 		stateManager = new StateStackManager(this);
 		pushInitialState();
 	}
@@ -43,7 +40,7 @@ public class LandsAndDungeonsClient extends Game {
 	}
 
 	private void pushInitialState() {
-	    stateManager.requestStatePush(new IntroState(stateManager));
+	    stateManager.requestStatePush(new LoadingScreen(stateManager));
     }
 
     private void configure() {
