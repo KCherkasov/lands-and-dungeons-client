@@ -1,6 +1,5 @@
 package ru.kvvartet.lndclient.client.states.state;
 
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
@@ -22,6 +21,8 @@ import ru.kvvartet.lndclient.util.assets.Extensions;
 import ru.kvvartet.lndclient.util.assets.FontSizeSuffices;
 
 public class IntroState extends AbstractState {
+    private static final String PRESS_ANY_KEY = "Press any key";
+
     public IntroState(@NotNull StateManager stateManager) {
         super(stateManager);
     }
@@ -39,6 +40,7 @@ public class IntroState extends AbstractState {
     }
 
     @Override
+    @SuppressWarnings("Duplicates")
     public void setupStage() {
         final Table layoutRoot = new Table();
         layoutRoot.setFillParent(true);
@@ -48,13 +50,12 @@ public class IntroState extends AbstractState {
             final TextureAtlasAssetHolder textureAtlasAssetHolder =
                     ClientAssetManagerImpl.getInstance().getTextureAtlasAssets();
             if (textureAtlasAssetHolder == null) {
-                Gdx.app.error(getClass().getName(), "TextureAsset holder is not initialized");
+                error(TEXTURE_ATLAS_HOLDER_MISSING);
                 return;
             }
             final TextureAtlas guiAtlas = textureAtlasAssetHolder.getAsset(TextureAtlasesKeys.GUI_ATLAS_KEY);
             if (guiAtlas == null) {
-                Gdx.app.error(getClass().getName(),
-                        "TextureAtlas " + TextureAtlasesKeys.GUI_ATLAS_KEY + " doesn\'t exist");
+                error(TEXTURE_ATLAS_MISSING + TextureAtlasesKeys.GUI_ATLAS_KEY);
                 return;
             }
             final TextureRegion logoTexture = guiAtlas.findRegion(TextureAtlasesKeys.GUI_LOGO_KEY);
@@ -66,20 +67,19 @@ public class IntroState extends AbstractState {
             final Label.LabelStyle style = new Label.LabelStyle();
             final BitmapFontAssetHolder fontAssetHolder = ClientAssetManagerImpl.getInstance().getFontAssets();
             if (fontAssetHolder == null) {
-                Gdx.app.error(getClass().getName(), "BitmapFont holder isn\'t initialized");
+                error(BITMAP_FONT_ASSET_HOLDER_MISSING);
                 return;
             }
             final BitmapFont font = fontAssetHolder.getAsset(
                     IntroStateKeys.FONT_KEY + FontSizeSuffices.FS_CAPTION.asText() + Extensions.TTF);
             if (font == null) {
-                Gdx.app.error(getClass().getName(),
-                        "BitmapFont " + IntroStateKeys.FONT_KEY
-                                + FontSizeSuffices.FS_CAPTION.asText() + Extensions.TTF + " doesn\'t exist");
+                error(BITMAP_FONT_MISSING + IntroStateKeys.FONT_KEY
+                        + FontSizeSuffices.FS_CAPTION.asText() + Extensions.TTF);
                 return;
             }
             style.font = font;
 
-            final Label label = new Label("Press any key", style);
+            final Label label = new Label(PRESS_ANY_KEY, style);
             label.setOrigin(Align.center);
 
             if (layoutRoot.getChildren().size > 0) {
@@ -87,7 +87,7 @@ public class IntroState extends AbstractState {
                 layoutRoot.add(label).center().top();
             }
         } else {
-            Gdx.app.error(getClass().getName(), "Asset manager isn\'t configured");
+            error(ASSET_MANAGER_NOT_CONFIGURED);
         }
 
         addListener(new InputListener() {

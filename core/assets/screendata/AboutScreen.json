@@ -1,0 +1,21 @@
+{
+  "title" : {
+    "class" : "java.util.HashMap",
+    "name" : "Lands and Dungeons",
+    "ver" : "0.0.1a"
+  },
+  "team_members" : {
+    "class" : "java.util.HashMap",
+    "title" : "KVVArtet team",
+    "backend programmers: " : "Kirill Cherkasov\nArtur Parpibaev\n",
+    "game mechanics and architecture: " : "Kirill Cherkasov\n",
+    "networking: " : "Artur Parpibaev\n",
+    "client development: " : "Kirill Cherkasov\nArtur Parpibaev\n"
+  },
+  "resources" : {
+    "class" : "java.util.HashMap",
+    "title" : "Third party resources",
+    "engine": "LibGDX\n",
+    "graphical assets: ": "SGX-UI\nwww.craftpix.net\n"
+  }
+}
