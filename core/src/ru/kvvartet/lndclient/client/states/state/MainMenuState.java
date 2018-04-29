@@ -1,13 +1,11 @@
 package ru.kvvartet.lndclient.client.states.state;
 
+import com.badlogic.gdx.Application;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.scenes.scene2d.Actor;
-import com.badlogic.gdx.scenes.scene2d.ui.Image;
-import com.badlogic.gdx.scenes.scene2d.ui.Stack;
-import com.badlogic.gdx.scenes.scene2d.ui.Table;
-import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
+import com.badlogic.gdx.scenes.scene2d.ui.*;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.Scaling;
@@ -25,6 +23,9 @@ public class MainMenuState extends AbstractState {
     private static final String SETTINGS_BUTTON_CAPTION = "Settings";
     private static final String ABOUT_BUTTON_CAPTION = "Authors";
     private static final String EXIT_BUTTON_CAPTION = "Exit";
+
+    private static final String BUTTON_PRESSED_LOG_MESSAGE = "Main menu button ";
+    private static final String PRESSED_LOG_MESSAGE = " pressed";
 
     private static final Integer PADDING = 3;
 
@@ -89,74 +90,77 @@ public class MainMenuState extends AbstractState {
         super.draw();
     }
 
-    private @NotNull TextButton makeMenuButton(@NotNull String caption){
-        return new TextButton(caption, Objects.requireNonNull(Objects.requireNonNull(
-                ClientAssetManagerImpl.getInstance().getSkinAssets()).getAsset(MainMenuStateKeys.SKIN_KEY)));
-    }
-
     private void fillMenuWidgetWithButtons(@NotNull Table target) {
-        // TODO: change on-click listeners on buttons as new states will be added
         target.setOrigin(Align.center);
         target.setFillParent(true);
 
-        final TextButton playButton = makeMenuButton(PLAY_BUTTON_CAPTION);
-        playButton.addListener(new ChangeListener() {
-            @Override
-            public void changed(ChangeEvent event, Actor actor) {
-                if (actor.getClass().equals(TextButton.class)) {
-                    defaultOnClickButtonCallback(
-                            ((TextButton)actor).getLabel().getText().toString());
-                }
-            }
-        });
-        playButton.setOrigin(Align.center);
-        target.add(playButton).center().fill().padLeft(PADDING).padRight(PADDING);
-        target.row().fillX();
+        final Skin skin = Objects.requireNonNull(ClientAssetManagerImpl.getInstance()
+                .getSkinAssets()).getAsset(MainMenuStateKeys.SKIN_KEY);
 
-        final TextButton settingsButton = makeMenuButton(SETTINGS_BUTTON_CAPTION);
-        settingsButton.addListener(new ChangeListener() {
-            @Override
-            public void changed(ChangeEvent event, Actor actor) {
-                if (actor.getClass().equals(TextButton.class)) {
-                    defaultOnClickButtonCallback(
-                            ((TextButton)actor).getLabel().getText().toString());
+        if (skin != null) {
+            final TextButton playButton = makeMenuButton(PLAY_BUTTON_CAPTION, skin);
+            playButton.addListener(new ChangeListener() {
+                @Override
+                public void changed(ChangeEvent event, Actor actor) {
+                    if (actor.getClass().equals(TextButton.class)) {
+                        defaultOnClickButtonCallback(
+                                ((TextButton) actor).getLabel().getText().toString());
+                    }
                 }
-            }
-        });
-        settingsButton.setOrigin(Align.center);
-        target.add(settingsButton).center().fill().padLeft(PADDING).padRight(PADDING);
-        target.row().fillX();
+            });
+            playButton.setOrigin(Align.center);
+            target.add(playButton).center().fill().padLeft(PADDING).padRight(PADDING);
+            target.row().fillX();
 
-        final TextButton aboutButton = makeMenuButton(ABOUT_BUTTON_CAPTION);
-        aboutButton.addListener(new ChangeListener() {
-            @Override
-            public void changed(ChangeEvent event, Actor actor) {
-                if (actor.getClass().equals(TextButton.class)) {
-                    defaultOnClickButtonCallback(
-                            ((TextButton)actor).getLabel().getText().toString());
-                    aboutButtonOnClickCallback();
+            final TextButton settingsButton = makeMenuButton(SETTINGS_BUTTON_CAPTION, skin);
+            settingsButton.addListener(new ChangeListener() {
+                @Override
+                public void changed(ChangeEvent event, Actor actor) {
+                    if (actor.getClass().equals(TextButton.class)) {
+                        defaultOnClickButtonCallback(
+                                ((TextButton) actor).getLabel().getText().toString());
+                        settingsButtonOnClickCallback();
+                    }
                 }
-            }
-        });
-        aboutButton.setOrigin(Align.center);
-        target.add(aboutButton).center().fill().padLeft(PADDING).padRight(PADDING);
-        target.row().fillX();
+            });
+            settingsButton.setOrigin(Align.center);
+            target.add(settingsButton).center().fill().padLeft(PADDING).padRight(PADDING);
+            target.row().fillX();
 
-        final TextButton exitButton = makeMenuButton(EXIT_BUTTON_CAPTION);
-        exitButton.addListener(new ChangeListener() {
-            @Override
-            public void changed(ChangeEvent event, Actor actor) {
-                defaultOnClickButtonCallback(
-                        ((TextButton)actor).getLabel().getText().toString());
-                exitButtonOnClickCallback();
-            }
-        });
-        exitButton.setOrigin(Align.center);
-        target.add(exitButton).center().fill().padLeft(PADDING).padRight(PADDING);
+            final TextButton aboutButton = makeMenuButton(ABOUT_BUTTON_CAPTION, skin);
+            aboutButton.addListener(new ChangeListener() {
+                @Override
+                public void changed(ChangeEvent event, Actor actor) {
+                    if (actor.getClass().equals(TextButton.class)) {
+                        defaultOnClickButtonCallback(
+                                ((TextButton) actor).getLabel().getText().toString());
+                        aboutButtonOnClickCallback();
+                    }
+                }
+            });
+            aboutButton.setOrigin(Align.center);
+            target.add(aboutButton).center().fill().padLeft(PADDING).padRight(PADDING);
+            target.row().fillX();
+
+            final TextButton exitButton = makeMenuButton(EXIT_BUTTON_CAPTION, skin);
+            exitButton.addListener(new ChangeListener() {
+                @Override
+                public void changed(ChangeEvent event, Actor actor) {
+                    defaultOnClickButtonCallback(
+                            ((TextButton) actor).getLabel().getText().toString());
+                    exitButtonOnClickCallback();
+                }
+            });
+            exitButton.setOrigin(Align.center);
+            target.add(exitButton).center().fill().padLeft(PADDING).padRight(PADDING);
+        } else {
+            Gdx.app.error(getClass().getName(), SKIN_MISSING + MainMenuStateKeys.SKIN_KEY);
+            Gdx.app.exit();
+        }
     }
 
     private void defaultOnClickButtonCallback(@NotNull String name) {
-        Gdx.app.log(getClass().getSimpleName(), "Main menu button " + name + " pressed");
+        Gdx.app.log(getClass().getSimpleName(), BUTTON_PRESSED_LOG_MESSAGE + name + PRESSED_LOG_MESSAGE);
     }
 
     private void exitButtonOnClickCallback() {
@@ -166,5 +170,14 @@ public class MainMenuState extends AbstractState {
     private void aboutButtonOnClickCallback() {
         stateManager.requestStatePop();
         stateManager.requestStatePush(new AboutState(stateManager));
+    }
+
+    private void settingsButtonOnClickCallback() {
+        if (Gdx.app.getType() == Application.ApplicationType.Desktop) {
+            stateManager.requestStatePush(new DesktopSettingsState(stateManager));
+        }
+        if (Gdx.app.getType() == Application.ApplicationType.Android) {
+            stateManager.requestStatePush(new AndroidSettingsState(stateManager));
+        }
     }
 }

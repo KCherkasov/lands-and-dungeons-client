@@ -25,6 +25,7 @@ import java.util.Objects;
 public class AboutState extends AbstractState {
     private static final String PRESS_ANY_KEY = "Press any key to return to main menu";
     private static final Character SPACE_CHAR = ' ';
+    private static final Integer TITLE_COLSPAN = 2;
 
     public AboutState(@NotNull StateManager stateManager) {
         super(stateManager);
@@ -132,7 +133,7 @@ public class AboutState extends AbstractState {
                 root.add(position).left();
                 final Label value = new Label(data.get(key), style);
                 root.add(value).right();
-                root.row().expandX().top();
+                root.row().fillX().top();
             }
         }
     }
@@ -142,8 +143,8 @@ public class AboutState extends AbstractState {
                                 @NotNull Label.LabelStyle titleStyle, @NotNull Label.LabelStyle textStyle) {
         final Map<String, String> dataSet = dataSource.get(blockKey);
         final Label titleLabel = new Label(dataSet.get(titleKey), titleStyle);
-        root.add(titleLabel).center();
-        root.row().expandX().top();
+        root.add(titleLabel).center().colspan(TITLE_COLSPAN);
+        root.row().fillX().top();
         fillTitles(root, dataSet, titleKey, textStyle);
     }
 }

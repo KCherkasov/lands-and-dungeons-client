@@ -16,8 +16,8 @@ public abstract class AbstractPreferences {
     public static final String VSYNC_ENABLED_KEY = "vsyncEnabled";
     public static final String HDPI_ENABLED_KEY = "hdpiEnabled";
 
-    private static final Float MIN_VOLUME = 0.0f;
-    private static final Float MAX_VOLUME = 1.0f;
+    public static final Float MIN_VOLUME = 0.0f;
+    public static final Float MAX_VOLUME = 1.0f;
 
     private static final Boolean DEFAULT_SOUND_ENABLED = true;
     private static final Boolean DEFAULT_MUSIC_ENABLED = true;
@@ -68,6 +68,30 @@ public abstract class AbstractPreferences {
 
     public @NotNull Boolean isHdpiEnabled() {
         return hdpiEnabled;
+    }
+
+    public void setSoundEnabled(@NotNull Boolean value) {
+        soundEnabled = value;
+    }
+
+    public void setMusicEnabled(@NotNull Boolean value) {
+        musicEnabled = value;
+    }
+
+    public void setSoundVolume(@NotNull Float value) {
+        soundVolume = value;
+    }
+
+    public void setMusicVolume(@NotNull Float value) {
+        musicVolume = value;
+    }
+
+    public void setVsyncEnabled(@NotNull Boolean value) {
+        vsyncEnabled = value;
+    }
+
+    public void setHdpiEnabled(@NotNull Boolean value) {
+        hdpiEnabled = value;
     }
 
     public void save() {
