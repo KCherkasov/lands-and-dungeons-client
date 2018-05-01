@@ -105,6 +105,7 @@ public class MainMenuState extends AbstractState {
                     if (actor.getClass().equals(TextButton.class)) {
                         defaultOnClickButtonCallback(
                                 ((TextButton) actor).getLabel().getText().toString());
+                        playButtonOnClickCallback();
                     }
                 }
             });
@@ -179,5 +180,10 @@ public class MainMenuState extends AbstractState {
         if (Gdx.app.getType() == Application.ApplicationType.Android) {
             stateManager.requestStatePush(new AndroidSettingsState(stateManager));
         }
+    }
+
+    private void playButtonOnClickCallback() {
+        stateManager.requestStatePop();
+        stateManager.requestStatePush(new LoginState(stateManager));
     }
 }

@@ -75,7 +75,7 @@ public abstract class AbstractSettingsState extends AbstractState {
             settingsWindow.add(configureButtons(menuTheme)).fillX().center();
             addActor(settingsWindow);
         } else {
-            Gdx.app.error(getClass().getName(), SKIN_MISSING + SettingsStateKeys.SKIN_KEY);
+            error(SKIN_MISSING + SettingsStateKeys.SKIN_KEY);
             stateManager.requestStatePop();
         }
     }
