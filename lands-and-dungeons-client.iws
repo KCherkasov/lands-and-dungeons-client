@@ -4,8 +4,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49567ccf-1451-4f9d-be28-89b6c925fe07" name="Default" comment="user model add">
-      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/controller/ClientController.java" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/controller/ClientController.java" />
+    <list default="true" id="49567ccf-1451-4f9d-be28-89b6c925fe07" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
       <change beforePath="$PROJECT_DIR$/lands-and-dungeons-client.iws" afterPath="$PROJECT_DIR$/lands-and-dungeons-client.iws" />
     </list>
@@ -3266,7 +3265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525301231685</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="client controller add">
+      <created>1525301287540</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1525301287540</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -3340,7 +3346,8 @@
     <MESSAGE value="-- about screen implemented and addded&#10;-- error logging in states refactored" />
     <MESSAGE value="-- cross-platform settings screens added (for desktop and Android)&#10;-- some minor refactoring in other states" />
     <MESSAGE value="user model add" />
-    <option name="LAST_COMMIT_MESSAGE" value="user model add" />
+    <MESSAGE value="client controller add" />
+    <option name="LAST_COMMIT_MESSAGE" value="client controller add" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
