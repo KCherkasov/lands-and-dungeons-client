@@ -4,17 +4,10 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49567ccf-1451-4f9d-be28-89b6c925fe07" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" afterPath="$PROJECT_DIR$/android/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/android/src/ru/kvvartet/lndclient/AndroidLauncher.java" afterPath="$PROJECT_DIR$/android/src/ru/kvvartet/lndclient/AndroidLauncher.java" />
-      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/LandsAndDungeonsClient.java" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/LandsAndDungeonsClient.java" />
+    <list default="true" id="49567ccf-1451-4f9d-be28-89b6c925fe07" name="Default" comment="user model add">
       <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/controller/ClientController.java" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/controller/ClientController.java" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
       <change beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change beforePath="$PROJECT_DIR$/lands-and-dungeons-client.ipr" afterPath="$PROJECT_DIR$/lands-and-dungeons-client.ipr" />
       <change beforePath="$PROJECT_DIR$/lands-and-dungeons-client.iws" afterPath="$PROJECT_DIR$/lands-and-dungeons-client.iws" />
-      <change beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -3266,7 +3259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525042926868</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="user model add">
+      <created>1525301231685</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1525301231685</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -3339,7 +3339,8 @@
     <MESSAGE value="-- main menu screen buttons added (with temporary callbacks atm)" />
     <MESSAGE value="-- about screen implemented and addded&#10;-- error logging in states refactored" />
     <MESSAGE value="-- cross-platform settings screens added (for desktop and Android)&#10;-- some minor refactoring in other states" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- cross-platform settings screens added (for desktop and Android)&#10;-- some minor refactoring in other states" />
+    <MESSAGE value="user model add" />
+    <option name="LAST_COMMIT_MESSAGE" value="user model add" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -3485,7 +3486,7 @@
         <state relative-caret-position="0">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3606,6 +3607,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3634,6 +3638,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+          <folding>
+            <element signature="e#2651#2652#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3672,6 +3679,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="89" column="38" lean-forward="false" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#1437#1612#0" expanded="true" />
+            <element signature="e#1611#1612#0" expanded="true" />
+            <element signature="e#1715#1890#0" expanded="true" />
+            <element signature="e#1889#1890#0" expanded="true" />
+            <element signature="e#1990#2163#0" expanded="true" />
+            <element signature="e#2162#2163#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3679,6 +3696,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="80" column="88" lean-forward="false" selection-start-line="80" selection-start-column="88" selection-end-line="80" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2100#2101#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
