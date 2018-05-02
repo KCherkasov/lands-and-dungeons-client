@@ -3,6 +3,8 @@ package ru.kvvartet.lndclient.client.states.state;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.scenes.scene2d.Stage;
+import com.badlogic.gdx.scenes.scene2d.ui.Skin;
+import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.utils.viewport.ExtendViewport;
 import org.jetbrains.annotations.NotNull;
 import ru.kvvartet.lndclient.client.states.manager.StateManager;
@@ -15,6 +17,7 @@ public abstract class AbstractState extends Stage implements GameState {
     protected static final String ASSET_MANAGER_NOT_CONFIGURED = "AssetManager not configured";
     protected static final String TEXTURE_ATLAS_HOLDER_MISSING = "TextureAtlas asset holder is not initialized";
     protected static final String CONFIG_NOT_PARSED = "config file not parsed: ";
+    protected static final String SKIN_MISSING = "Skin doesn\'t exist: ";
 
     protected final StateManager stateManager;
 
@@ -63,5 +66,9 @@ public abstract class AbstractState extends Stage implements GameState {
 
     protected void error(@NotNull String errorMessage) {
         Gdx.app.error(getClass().getName(), errorMessage);
+    }
+
+    protected @NotNull TextButton makeMenuButton(@NotNull String caption, @NotNull Skin skin){
+        return new TextButton(caption, skin);
     }
 }

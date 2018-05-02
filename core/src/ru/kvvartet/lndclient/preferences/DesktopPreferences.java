@@ -53,6 +53,26 @@ public final class DesktopPreferences extends AbstractPreferences {
         return isUndecorated;
     }
 
+    public void setScreenWidth(@NotNull Integer value) {
+        screenWidth = value;
+    }
+
+    public void setScreenHeight(@NotNull Integer value) {
+        screenHeight = value;
+    }
+
+    public void setFullScreen(@NotNull Boolean value) {
+        isFullScreen = value;
+    }
+
+    public void setResizable(@NotNull Boolean value) {
+        isResizable = value;
+    }
+
+    public void setUndecorated(@NotNull Boolean value) {
+        isUndecorated = value;
+    }
+
     @Override
     protected void pushSettings() {
         super.pushSettings();
