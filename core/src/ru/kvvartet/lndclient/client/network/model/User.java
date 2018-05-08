@@ -1,4 +1,4 @@
-package ru.kvvartet.lndclient.client.controller.model;
+package ru.kvvartet.lndclient.client.network.model;
 
 public class User {
     private String username;

@@ -2,13 +2,24 @@ package ru.kvvartet.lndclient.client.states.state;
 
 import com.badlogic.gdx.Application;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Net;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.scenes.scene2d.EventListener;
-import com.badlogic.gdx.scenes.scene2d.ui.*;
+import com.badlogic.gdx.scenes.scene2d.ui.Image;
+import com.badlogic.gdx.scenes.scene2d.ui.Skin;
+import com.badlogic.gdx.scenes.scene2d.ui.Stack;
+import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.utils.Align;
+import com.badlogic.gdx.utils.Json;
+import com.badlogic.gdx.utils.JsonWriter;
 import com.badlogic.gdx.utils.Scaling;
+
 import org.jetbrains.annotations.NotNull;
+
+import java.util.Objects;
+
 import ru.kvvartet.lndclient.assets.manager.ClientAssetManagerImpl;
 import ru.kvvartet.lndclient.client.states.manager.StateManager;
 import ru.kvvartet.lndclient.client.states.state.configkeys.AuthorizationStateKeys;
@@ -17,13 +28,14 @@ import ru.kvvartet.lndclient.preferences.AbstractPreferences;
 import ru.kvvartet.lndclient.preferences.AndroidPreferences;
 import ru.kvvartet.lndclient.preferences.DesktopPreferences;
 
-import java.util.Objects;
-
-public abstract class AbstractAuthorizationState extends AbstractState {
+public abstract class AbstractAuthorizationState extends AbstractState implements Net.HttpResponseListener {
     protected static final String EMPTY_FILLER = "";
+    protected final Json json = new Json();
+
 
     protected AbstractAuthorizationState(@NotNull StateManager stateManager) {
         super(stateManager);
+        json.setOutputType(JsonWriter.OutputType.json);
     }
 
     @Override
@@ -79,6 +91,8 @@ public abstract class AbstractAuthorizationState extends AbstractState {
     protected abstract  @NotNull Table makeInputArea(@NotNull Skin theme);
 
     protected abstract void processMessages();
+
+    protected abstract String validateInput();
 
     protected void logErrorAndLeave(@NotNull String error) {
         error(error);

@@ -1,19 +1,26 @@
 package ru.kvvartet.lndclient.client.states.state;
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Net;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.badlogic.gdx.net.SocketHints;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.InputListener;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.utils.Align;
+import com.badlogic.gdx.utils.GdxRuntimeException;
 import com.badlogic.gdx.utils.Scaling;
+
 import org.jetbrains.annotations.NotNull;
+
 import ru.kvvartet.lndclient.assets.holders.fonts.BitmapFontAssetHolder;
 import ru.kvvartet.lndclient.assets.holders.graphics.TextureAtlasAssetHolder;
 import ru.kvvartet.lndclient.assets.manager.ClientAssetManagerImpl;
+import ru.kvvartet.lndclient.client.network.NetworkConfig;
 import ru.kvvartet.lndclient.client.states.manager.StateManager;
 import ru.kvvartet.lndclient.client.states.state.configkeys.IntroStateKeys;
 import ru.kvvartet.lndclient.client.states.state.configkeys.TextureAtlasesKeys;
@@ -42,6 +49,16 @@ public class IntroState extends AbstractState {
     @Override
     @SuppressWarnings("Duplicates")
     public void setupStage() {
+
+        //private Preferences prefs = Gdx.app.getPreferences("CookiePreferences");
+            try {
+                final SocketHints clientHints = new SocketHints();
+                Gdx.net.newClientSocket(Net.Protocol.TCP, NetworkConfig.SERVER_HOST, NetworkConfig.SERVER_PORT, clientHints);
+            } catch (GdxRuntimeException gdxException){
+                gdxException.printStackTrace();
+                //dfdf
+            }
+
         final Table layoutRoot = new Table();
         layoutRoot.setFillParent(true);
         addActor(layoutRoot);
