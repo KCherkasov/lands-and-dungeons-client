@@ -95,9 +95,9 @@ public class LoginState extends AbstractAuthorizationState {
 
         // working with login saving (NOTE: we don't save passwords anyways)
         getSettings().setLoginSavingPolicy(loginSavingPolicy.isChecked());
-        getSettings().save();
         getSettings().setLastUsedLogin(getSettings().isLoginSavingEnabled()
                 ? login.getText() : EMPTY_FILLER);
+        getSettings().save();
     }
 
     private void signUpOnClickCallback() {
