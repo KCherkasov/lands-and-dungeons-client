@@ -1,9 +1,21 @@
 package ru.kvvartet.lndclient.client.states.state;
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Net;
+import com.badlogic.gdx.net.HttpRequestBuilder;
+import com.badlogic.gdx.net.HttpStatus;
 import com.badlogic.gdx.scenes.scene2d.Actor;
-import com.badlogic.gdx.scenes.scene2d.ui.*;
+import com.badlogic.gdx.scenes.scene2d.ui.Label;
+import com.badlogic.gdx.scenes.scene2d.ui.Skin;
+import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
+import com.badlogic.gdx.scenes.scene2d.ui.TextField;
 import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
+
 import org.jetbrains.annotations.NotNull;
+
+import ru.kvvartet.lndclient.client.network.NetworkConfig;
+import ru.kvvartet.lndclient.client.network.model.User;
 import ru.kvvartet.lndclient.client.states.manager.StateManager;
 
 public class SignUpState extends AbstractAuthorizationState {
@@ -92,13 +104,67 @@ public class SignUpState extends AbstractAuthorizationState {
         // go to login screen otherwise - show what's wrong
     }
 
-    private void submitOnClickCallback() {
-        // TODO: account registering logic here
+    @Override
+    protected String validateInput() {
+        /*
+         * login validation
+         * */
 
-        // login saving policy handling (NOTE: we save login, not email, by default, and never save password)
-        if (getSettings().isLoginSavingEnabled()) {
-            getSettings().setLastUsedLogin(login.getText());
+        if(login.getText().length() < 6) {
+            return "Login is too short";
         }
+
+        /*
+        * email validation
+        * */
+
+        if(email.getText().length() < 6) {
+            return "Email is too short";
+        }
+
+        if(email.getText().matches("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$")){
+            return "Email not valid";
+        }
+
+        /*
+         * password validation
+         * */
+
+        if(password.getText().length() < 6) {
+            return "Password is too short";
+        }
+
+        return null;
+    }
+
+    private void submitOnClickCallback() {
+        if (validateInput() != null) {
+            //TODO: Widget with error
+            System.out.println("INPUT NOT VALID BECAUSE: " + validateInput());
+        } else {
+            final User user = new User(login.getText(), email.getText(), password.getText());
+            signUpRequest(user);
+            // login saving policy handling (NOTE: we save login, not email, by default, and never save password)
+            if (getSettings().isLoginSavingEnabled()) {
+                getSettings().setLastUsedLogin(login.getText());
+            }
+        }
+    }
+
+    private void signUpRequest(User user) {
+        final HttpRequestBuilder httpRequestBuilder = new HttpRequestBuilder();
+        final Net.HttpRequest httpRequest = httpRequestBuilder.newRequest()
+                .method(Net.HttpMethods.POST)
+                //.header("Cookie", prefs.getString("JSESSIONID", null))
+                .header("Content-Type", "application/json")
+                .url(NetworkConfig.READY_URL + NetworkConfig.SIGNUP_URI)
+                .content(json.toJson(user))
+                .includeCredentials(true)
+                .build();
+        System.out.println(json.toJson(user, User.class));
+        System.out.println("URL TO SEND: " + NetworkConfig.READY_URL + NetworkConfig.SIGNUP_URI);
+        System.out.println("SIGN UP SENDED");
+        Gdx.net.sendHttpRequest(httpRequest, this);
     }
 
     private void signInOnClickCallback() {
@@ -109,5 +175,27 @@ public class SignUpState extends AbstractAuthorizationState {
     private void backOnClickCallback() {
         stateManager.requestStatePop();
         stateManager.requestStatePush(new MainMenuState(stateManager));
+    }
+
+    @Override
+    public void handleHttpResponse(Net.HttpResponse httpResponse) {
+        if(httpResponse.getStatus().getStatusCode() >= HttpStatus.SC_OK
+            && httpResponse.getStatus().getStatusCode() < HttpStatus.SC_MULTIPLE_CHOICES) {
+            //TODO: Widget with successful registration and after "ok" move to login screen
+            System.out.println(httpResponse.getResultAsString());
+        } else {
+            //TODO: Widget with error response from server
+            System.out.println(httpResponse.getResultAsString());
+        }
+    }
+
+    @Override
+    public void failed(Throwable t) {
+
+    }
+
+    @Override
+    public void cancelled() {
+
     }
 }
