@@ -12,6 +12,7 @@ import ru.kvvartet.lndclient.client.states.manager.StateStackManager;
 import ru.kvvartet.lndclient.client.states.state.LoadingScreen;
 import ru.kvvartet.lndclient.preferences.AbstractPreferences;
 import ru.kvvartet.lndclient.preferences.AndroidPreferences;
+import ru.kvvartet.lndclient.preferences.AuthorizationPreferences;
 import ru.kvvartet.lndclient.preferences.DesktopPreferences;
 
 public class LandsAndDungeonsClient extends Game {
@@ -57,6 +58,7 @@ public class LandsAndDungeonsClient extends Game {
 
     private void configDesktop() {
         final DesktopPreferences prefs = DesktopPreferences.getInstance();
+        final AuthorizationPreferences preferences = AuthorizationPreferences.getInstance();
         if (prefs.isFullScreen()) {
             Gdx.graphics.setFullscreenMode(Gdx.graphics.getDisplayMode());
         } else {

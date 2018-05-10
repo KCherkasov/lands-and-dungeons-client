@@ -1,8 +1,6 @@
 package ru.kvvartet.lndclient.client.states.state;
 
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Net;
-import com.badlogic.gdx.net.HttpRequestBuilder;
 import com.badlogic.gdx.net.HttpStatus;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
@@ -14,7 +12,6 @@ import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 
 import org.jetbrains.annotations.NotNull;
 
-import ru.kvvartet.lndclient.client.network.NetworkConfig;
 import ru.kvvartet.lndclient.client.network.model.User;
 import ru.kvvartet.lndclient.client.states.manager.StateManager;
 
@@ -143,7 +140,7 @@ public class SignUpState extends AbstractAuthorizationState {
             System.out.println("INPUT NOT VALID BECAUSE: " + validateInput());
         } else {
             final User user = new User(login.getText(), email.getText(), password.getText());
-            signUpRequest(user);
+            stateManager.getAuthorizationController().signUp(user, this);
             // login saving policy handling (NOTE: we save login, not email, by default, and never save password)
             if (getSettings().isLoginSavingEnabled()) {
                 getSettings().setLastUsedLogin(login.getText());
@@ -151,21 +148,6 @@ public class SignUpState extends AbstractAuthorizationState {
         }
     }
 
-    private void signUpRequest(User user) {
-        final HttpRequestBuilder httpRequestBuilder = new HttpRequestBuilder();
-        final Net.HttpRequest httpRequest = httpRequestBuilder.newRequest()
-                .method(Net.HttpMethods.POST)
-                //.header("Cookie", prefs.getString("JSESSIONID", null))
-                .header("Content-Type", "application/json")
-                .url(NetworkConfig.READY_URL + NetworkConfig.SIGNUP_URI)
-                .content(json.toJson(user))
-                .includeCredentials(true)
-                .build();
-        System.out.println(json.toJson(user, User.class));
-        System.out.println("URL TO SEND: " + NetworkConfig.READY_URL + NetworkConfig.SIGNUP_URI);
-        System.out.println("SIGN UP SENDED");
-        Gdx.net.sendHttpRequest(httpRequest, this);
-    }
 
     private void signInOnClickCallback() {
         stateManager.requestStatePop();

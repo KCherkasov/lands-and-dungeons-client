@@ -1,22 +1,30 @@
 package ru.kvvartet.lndclient.client.states.manager;
 
 import com.badlogic.gdx.Game;
+
 import org.jetbrains.annotations.NotNull;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.Queue;
+
+import ru.kvvartet.lndclient.client.network.controller.AuthorizationController;
+import ru.kvvartet.lndclient.client.network.controller.AuthorizationControllerImpl;
+import ru.kvvartet.lndclient.client.network.manager.ClientNetworkManager;
+import ru.kvvartet.lndclient.client.network.manager.NetworkManager;
 import ru.kvvartet.lndclient.client.states.manager.requests.StateClearRequest;
 import ru.kvvartet.lndclient.client.states.manager.requests.StateManagerRequest;
 import ru.kvvartet.lndclient.client.states.manager.requests.StatePopRequest;
 import ru.kvvartet.lndclient.client.states.manager.requests.StatePushRequest;
 import ru.kvvartet.lndclient.client.states.state.GameState;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.Queue;
-
 public class StateStackManager implements StateManager {
     private final Game game;
 
     private final Deque<GameState> states = new ArrayDeque<>();
     private final Queue<StateManagerRequest> pendingRequests = new ArrayDeque<>();
+    private final NetworkManager networkManager = new ClientNetworkManager();
+    private final AuthorizationController authorizationController = new AuthorizationControllerImpl();
 
     public StateStackManager(@NotNull Game game) {
         this.game = game;
@@ -85,5 +93,15 @@ public class StateStackManager implements StateManager {
             final StatePushRequest pushRequest = (StatePushRequest)request;
             states.offerFirst(pushRequest.getGameState());
         }
+    }
+
+    @Override
+    public NetworkManager getNetworkManager() {
+        return networkManager;
+    }
+
+    @Override
+    public AuthorizationController getAuthorizationController() {
+        return authorizationController;
     }
 }

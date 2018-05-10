@@ -1,8 +1,7 @@
 package ru.kvvartet.lndclient.client.states.state;
 
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Net;
-import com.badlogic.gdx.net.HttpRequestBuilder;
+import com.badlogic.gdx.net.HttpResponseHeader;
 import com.badlogic.gdx.net.HttpStatus;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import com.badlogic.gdx.scenes.scene2d.ui.CheckBox;
@@ -15,10 +14,13 @@ import com.badlogic.gdx.scenes.scene2d.utils.ChangeListener;
 
 import org.jetbrains.annotations.NotNull;
 
+import java.util.Scanner;
+import java.util.regex.MatchResult;
+
 import ru.kvvartet.lndclient.assets.configs.SgxUiSkinKeys;
-import ru.kvvartet.lndclient.client.network.NetworkConfig;
 import ru.kvvartet.lndclient.client.network.model.User;
 import ru.kvvartet.lndclient.client.states.manager.StateManager;
+import ru.kvvartet.lndclient.preferences.AuthorizationPreferences;
 
 public class LoginState extends AbstractAuthorizationState {
     // TODO: send all prsf to .json file and add some keys for retrieving these to AuthorizationStateKeys
@@ -35,6 +37,7 @@ public class LoginState extends AbstractAuthorizationState {
     private static final String PASSWORD_FILLER = "Enter your password";
 
     private CheckBox loginSavingPolicy;
+    private AuthorizationPreferences authorizationPreferences = AuthorizationPreferences.getInstance();
 
     private TextField password;
     private TextField login;
@@ -130,7 +133,7 @@ public class LoginState extends AbstractAuthorizationState {
             System.out.println("INPUT NOT VALID BECAUSE: " + validateInput());
         } else {
             final User user = new User(login.getText(), null, password.getText());
-            signInRequest(user);
+            stateManager.getAuthorizationController().signIn(user, this);
 
             // working with login saving (NOTE: we don't save passwords anyways)
             getSettings().setLoginSavingPolicy(loginSavingPolicy.isChecked());
@@ -138,22 +141,6 @@ public class LoginState extends AbstractAuthorizationState {
             getSettings().setLastUsedLogin(getSettings().isLoginSavingEnabled()
                     ? login.getText() : EMPTY_FILLER);
         }
-    }
-
-    private void signInRequest(User user) {
-        final HttpRequestBuilder httpRequestBuilder = new HttpRequestBuilder();
-        final Net.HttpRequest httpRequest = httpRequestBuilder.newRequest()
-                .method(Net.HttpMethods.POST)
-                //.header("Cookie", prefs.getString("JSESSIONID", null))
-                .header("Content-Type", "application/json")
-                .url(NetworkConfig.READY_URL + NetworkConfig.SIGNIN_URI)
-                .content(json.toJson(user))
-                .includeCredentials(true)
-                .build();
-        System.out.println(json.toJson(user, User.class));
-        System.out.println("URL TO SEND: " + NetworkConfig.READY_URL + NetworkConfig.SIGNIN_URI);
-        System.out.println("SIGN IN SENDED");
-        Gdx.net.sendHttpRequest(httpRequest, this);
     }
 
     private void signUpOnClickCallback() {
@@ -172,6 +159,14 @@ public class LoginState extends AbstractAuthorizationState {
                 && httpResponse.getStatus().getStatusCode() < HttpStatus.SC_MULTIPLE_CHOICES) {
             //TODO: Widget with successful registration and after "ok" move to login screen
             System.out.println(httpResponse.getResultAsString());
+            //System.out.println(httpResponse.getHeader("Set-Cookie"));
+            //String.format(httpResponse.getHeader("Set-Cookie"), );
+            try(final Scanner scanner = new Scanner(httpResponse.getHeader(HttpResponseHeader.SetCookie))) {
+                scanner.findInLine(AuthorizationPreferences.AUTHORIZATION_COOKIE_ID + "=(\\w+);");
+                final MatchResult matchResult = scanner.match();
+                //System.out.println("MATCHER: "  + matchResult.group(1));
+                authorizationPreferences.setSessionId(matchResult.group(1));
+            }
         } else {
             //TODO: Widget with error response from server
             System.out.println(httpResponse.getResultAsString());

@@ -12,8 +12,6 @@ import com.badlogic.gdx.scenes.scene2d.ui.Stack;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.utils.Align;
-import com.badlogic.gdx.utils.Json;
-import com.badlogic.gdx.utils.JsonWriter;
 import com.badlogic.gdx.utils.Scaling;
 
 import org.jetbrains.annotations.NotNull;
@@ -30,12 +28,10 @@ import ru.kvvartet.lndclient.preferences.DesktopPreferences;
 
 public abstract class AbstractAuthorizationState extends AbstractState implements Net.HttpResponseListener {
     protected static final String EMPTY_FILLER = "";
-    protected final Json json = new Json();
 
 
     protected AbstractAuthorizationState(@NotNull StateManager stateManager) {
         super(stateManager);
-        json.setOutputType(JsonWriter.OutputType.json);
     }
 
     @Override
