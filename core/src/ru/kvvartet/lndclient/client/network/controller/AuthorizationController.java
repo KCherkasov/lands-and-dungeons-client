@@ -13,5 +13,5 @@ public interface AuthorizationController {
 
     void changeProfile(User user, Net.HttpResponseListener httpResponseListener);
 
-    void signOut(User user, Net.HttpResponseListener httpResponseListener);
+    void signOut(Net.HttpResponseListener httpResponseListener);
 }

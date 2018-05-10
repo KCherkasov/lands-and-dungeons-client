@@ -9,6 +9,6 @@ public final class NetworkConfig {
     public static final String SESSION_URI = "/session";
     public static final String SETTINGS_URI = "/settings";
     public static final String SCOREBOARD_URI = "/scoreboard";
-    public static final String SIGNPUT_URI = "/signout";
+    public static final String SIGNOUT_URI = "/signout";
 
 }

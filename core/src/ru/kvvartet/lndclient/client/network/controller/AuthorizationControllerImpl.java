@@ -39,7 +39,7 @@ public class AuthorizationControllerImpl implements  AuthorizationController {
     @Override
     public void signIn(User user, Net.HttpResponseListener httpResponseListener) {
         final HttpRequestBuilder httpRequestBuilder = new HttpRequestBuilder();
-        System.out.println("Cookie request: " + AuthorizationPreferences.AUTHORIZATION_COOKIE_ID + '=' +preferences.getSessionId());
+        //System.out.println("Cookie request: " + AuthorizationPreferences.AUTHORIZATION_COOKIE_ID + '=' +preferences.getSessionId());
         final Net.HttpRequest httpRequest = httpRequestBuilder.newRequest()
                 .method(Net.HttpMethods.POST)
                 .header(HttpRequestHeader.Cookie, AuthorizationPreferences.AUTHORIZATION_COOKIE_ID + '=' +preferences.getSessionId())
@@ -56,16 +56,49 @@ public class AuthorizationControllerImpl implements  AuthorizationController {
 
     @Override
     public void userInformation(Net.HttpResponseListener httpResponseListener) {
-
+        final HttpRequestBuilder httpRequestBuilder = new HttpRequestBuilder();
+        //System.out.println("Cookie request: " + AuthorizationPreferences.AUTHORIZATION_COOKIE_ID + '=' +preferences.getSessionId());
+        final Net.HttpRequest httpRequest = httpRequestBuilder.newRequest()
+                .method(Net.HttpMethods.GET)
+                .header(HttpRequestHeader.Cookie, AuthorizationPreferences.AUTHORIZATION_COOKIE_ID + '=' +preferences.getSessionId())
+                .url(NetworkConfig.READY_URL + NetworkConfig.SESSION_URI)
+                .includeCredentials(true)
+                .build();
+        System.out.println("URL TO SEND: " + NetworkConfig.READY_URL + NetworkConfig.SESSION_URI);
+        System.out.println("SESSION SENDED");
+        Gdx.net.sendHttpRequest(httpRequest, httpResponseListener);
     }
 
     @Override
     public void changeProfile(User user, Net.HttpResponseListener httpResponseListener) {
-
+        final HttpRequestBuilder httpRequestBuilder = new HttpRequestBuilder();
+        System.out.println("Cookie request: " + AuthorizationPreferences.AUTHORIZATION_COOKIE_ID + '=' +preferences.getSessionId());
+        final Net.HttpRequest httpRequest = httpRequestBuilder.newRequest()
+                .method(Net.HttpMethods.PUT)
+                .header(HttpRequestHeader.Cookie, AuthorizationPreferences.AUTHORIZATION_COOKIE_ID + '=' +preferences.getSessionId())
+                .header(HttpRequestHeader.ContentType, "application/json")
+                .url(NetworkConfig.READY_URL + NetworkConfig.SETTINGS_URI)
+                .content(json.toJson(user))
+                .includeCredentials(true)
+                .build();
+        System.out.println(json.toJson(user, User.class));
+        System.out.println("URL TO SEND: " + NetworkConfig.READY_URL + NetworkConfig.SETTINGS_URI);
+        System.out.println("SETTINGS SENDED");
+        Gdx.net.sendHttpRequest(httpRequest, httpResponseListener);
     }
 
     @Override
-    public void signOut(User user, Net.HttpResponseListener httpResponseListener) {
-
+    public void signOut(Net.HttpResponseListener httpResponseListener) {
+        final HttpRequestBuilder httpRequestBuilder = new HttpRequestBuilder();
+        //System.out.println("Cookie request: " + AuthorizationPreferences.AUTHORIZATION_COOKIE_ID + '=' +preferences.getSessionId());
+        final Net.HttpRequest httpRequest = httpRequestBuilder.newRequest()
+                .method(Net.HttpMethods.DELETE)
+                .header(HttpRequestHeader.Cookie, AuthorizationPreferences.AUTHORIZATION_COOKIE_ID + '=' +preferences.getSessionId())
+                .url(NetworkConfig.READY_URL + NetworkConfig.SIGNOUT_URI)
+                .includeCredentials(true)
+                .build();
+        System.out.println("URL TO SEND: " + NetworkConfig.READY_URL + NetworkConfig.SIGNOUT_URI);
+        System.out.println("SIGNOUT SENDED");
+        Gdx.net.sendHttpRequest(httpRequest, httpResponseListener);
     }
 }
