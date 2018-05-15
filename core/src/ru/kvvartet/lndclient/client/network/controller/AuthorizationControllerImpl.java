@@ -7,7 +7,7 @@ import com.badlogic.gdx.net.HttpRequestHeader;
 import com.badlogic.gdx.utils.Json;
 import com.badlogic.gdx.utils.JsonWriter;
 
-import ru.kvvartet.lndclient.client.network.NetworkConfig;
+import ru.kvvartet.lndclient.client.network.config.NetworkConfig;
 import ru.kvvartet.lndclient.client.network.model.User;
 import ru.kvvartet.lndclient.preferences.AuthorizationPreferences;
 

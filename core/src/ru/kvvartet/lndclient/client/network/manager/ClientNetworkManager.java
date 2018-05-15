@@ -6,7 +6,7 @@ import com.badlogic.gdx.net.Socket;
 import com.badlogic.gdx.net.SocketHints;
 import com.badlogic.gdx.utils.GdxRuntimeException;
 
-import ru.kvvartet.lndclient.client.network.NetworkConfig;
+import ru.kvvartet.lndclient.client.network.config.NetworkConfig;
 
 public class ClientNetworkManager implements NetworkManager{
 

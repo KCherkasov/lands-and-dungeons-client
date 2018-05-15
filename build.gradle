@@ -26,6 +26,7 @@ allprojects {
         box2DLightsVersion = '1.4'
         ashleyVersion = '1.7.0'
         aiVersion = '1.8.0'
+        libVersion = '1.9.1.9.6'
     }
 
     repositories {
@@ -49,6 +50,7 @@ project(":desktop") {
         compile "com.badlogicgames.gdx:gdx-controllers-platform:$gdxVersion:natives-desktop"
         compile "com.badlogicgames.gdx:gdx-tools:$gdxVersion"
         compile "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-desktop"
+        compile "com.github.czyzby:gdx-websocket-common:$libVersion"
     }
 }
 
@@ -75,12 +77,12 @@ project(":android") {
         compile "com.badlogicgames.gdx:gdx-controllers-android:$gdxVersion"
         compile "com.badlogicgames.box2dlights:box2dlights:$box2DLightsVersion"
         compile "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
+        compile "com.github.czyzby:gdx-websocket-common:$libVersion"
         natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-armeabi"
         natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-armeabi-v7a"
         natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-arm64-v8a"
         natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-x86"
         natives "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-x86_64"
-        
     }
 }
 
@@ -95,7 +97,7 @@ project(":core") {
         compile "com.badlogicgames.box2dlights:box2dlights:$box2DLightsVersion"
         compile "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
         compile "org.jetbrains:annotations:15.0"
-        
+        compile "com.github.czyzby:gdx-websocket:$libVersion"
     }
 }
 

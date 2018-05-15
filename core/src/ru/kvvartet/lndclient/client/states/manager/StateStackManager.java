@@ -1,6 +1,8 @@
 package ru.kvvartet.lndclient.client.states.manager;
 
 import com.badlogic.gdx.Game;
+import com.github.czyzby.websocket.WebSocket;
+import com.github.czyzby.websocket.net.ExtendedNet;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -8,6 +10,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Queue;
 
+import ru.kvvartet.lndclient.client.network.config.NetworkConfig;
 import ru.kvvartet.lndclient.client.network.controller.AuthorizationController;
 import ru.kvvartet.lndclient.client.network.controller.AuthorizationControllerImpl;
 import ru.kvvartet.lndclient.client.network.manager.ClientNetworkManager;
@@ -25,6 +28,7 @@ public class StateStackManager implements StateManager {
     private final Queue<StateManagerRequest> pendingRequests = new ArrayDeque<>();
     private final NetworkManager networkManager = new ClientNetworkManager();
     private final AuthorizationController authorizationController = new AuthorizationControllerImpl();
+    //private WebSocket webSocket = ExtendedNet.getNet().newWebSocket(NetworkConfig.SERVER_HOST, NetworkConfig.SERVER_PORT);
 
     public StateStackManager(@NotNull Game game) {
         this.game = game;

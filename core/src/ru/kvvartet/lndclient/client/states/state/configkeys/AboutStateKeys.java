@@ -1,7 +1,7 @@
 package ru.kvvartet.lndclient.client.states.state.configkeys;
 
 public class AboutStateKeys {
-    public static final String TITLES_TEXT_SOURCE = "core/assets/screendata/AboutScreen.json";
+    public static final String TITLES_TEXT_SOURCE = "core/gameassets/screendata/AboutScreen.json";
 
     public static final String FONT_KEY = "Sansation";
 

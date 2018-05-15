@@ -1,4 +1,4 @@
-package ru.kvvartet.lndclient.client.network;
+package ru.kvvartet.lndclient.client.network.config;
 
 public final class NetworkConfig {
     public static final String SERVER_HOST = "localhost";

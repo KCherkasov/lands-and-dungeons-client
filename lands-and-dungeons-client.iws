@@ -5,7 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49567ccf-1451-4f9d-be28-89b6c925fe07" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/android/assets/badlogic.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/core/assetconfig/AssetManager.json" afterPath="$PROJECT_DIR$/core/assetconfig/AssetManager.json" />
+      <change beforePath="$PROJECT_DIR$/core/assets/fonts/Sansation.ttf" afterPath="$PROJECT_DIR$/core/gameassets/fonts/Sansation.ttf" />
+      <change beforePath="$PROJECT_DIR$/core/assets/packed/font-export.fnt" afterPath="$PROJECT_DIR$/core/gameassets/packed/font-export.fnt" />
+      <change beforePath="$PROJECT_DIR$/core/assets/packed/font-medium-export.fnt" afterPath="$PROJECT_DIR$/core/gameassets/packed/font-medium-export.fnt" />
+      <change beforePath="$PROJECT_DIR$/core/assets/packed/font-small-export.fnt" afterPath="$PROJECT_DIR$/core/gameassets/packed/font-small-export.fnt" />
+      <change beforePath="$PROJECT_DIR$/core/assets/packed/font-title-export.fnt" afterPath="$PROJECT_DIR$/core/gameassets/packed/font-title-export.fnt" />
+      <change beforePath="$PROJECT_DIR$/core/assets/packed/gui.pack" afterPath="$PROJECT_DIR$/core/gameassets/packed/gui.pack" />
+      <change beforePath="$PROJECT_DIR$/core/assets/packed/gui.png" afterPath="$PROJECT_DIR$/core/gameassets/packed/gui.png" />
+      <change beforePath="$PROJECT_DIR$/core/assets/packed/sgx-ui.atlas" afterPath="$PROJECT_DIR$/core/gameassets/packed/sgx-ui.atlas" />
+      <change beforePath="$PROJECT_DIR$/core/assets/packed/sgx-ui.json" afterPath="$PROJECT_DIR$/core/gameassets/packed/sgx-ui.json" />
+      <change beforePath="$PROJECT_DIR$/core/assets/packed/sgx-ui.png" afterPath="$PROJECT_DIR$/core/gameassets/packed/sgx-ui.png" />
+      <change beforePath="$PROJECT_DIR$/core/assets/packed/textures.pack" afterPath="$PROJECT_DIR$/core/gameassets/packed/textures.pack" />
+      <change beforePath="$PROJECT_DIR$/core/assets/packed/textures.png" afterPath="$PROJECT_DIR$/core/gameassets/packed/textures.png" />
+      <change beforePath="$PROJECT_DIR$/core/assets/screendata/AboutScreen.json" afterPath="$PROJECT_DIR$/core/gameassets/screendata/AboutScreen.json" />
+      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/NetworkConfig.java" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/config/NetworkConfig.java" />
+      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/controller/AuthorizationControllerImpl.java" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/controller/AuthorizationControllerImpl.java" />
+      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/manager/ClientNetworkManager.java" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/manager/ClientNetworkManager.java" />
+      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/manager/StateStackManager.java" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/manager/StateStackManager.java" />
+      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/AboutStateKeys.java" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/AboutStateKeys.java" />
+      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/AuthorizationStateKeys.java" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/AuthorizationStateKeys.java" />
+      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/MainMenuStateKeys.java" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/MainMenuStateKeys.java" />
+      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/SettingsStateKeys.java" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/SettingsStateKeys.java" />
+      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/TextureAtlasesKeys.java" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/TextureAtlasesKeys.java" />
       <change beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
+      <change beforePath="$PROJECT_DIR$/lands-and-dungeons-client.ipr" afterPath="$PROJECT_DIR$/lands-and-dungeons-client.ipr" />
       <change beforePath="$PROJECT_DIR$/lands-and-dungeons-client.iws" afterPath="$PROJECT_DIR$/lands-and-dungeons-client.iws" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -99,63 +126,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClientController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/controller/ClientController.java">
+      <file leaf-file-name="LoginState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/LoginState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="2220">
+              <caret line="176" column="20" lean-forward="false" selection-start-line="176" selection-start-column="20" selection-end-line="176" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Preferences.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/controller/Preferences.java">
+      <file leaf-file-name="AuthorizationController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/controller/AuthorizationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+            <state relative-caret-position="195">
+              <caret line="15" column="64" lean-forward="false" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientControllerImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/controller/ClientControllerImpl.java">
+      <file leaf-file-name="AuthorizationControllerImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/controller/AuthorizationControllerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidNet.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.9.8/fa6c464c1a911ce39f252cb2b86e9d05eecb6a1d/gdx-backend-android-1.9.8-sources.jar!/com/badlogic/gdx/backends/android/AndroidNet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+            <state relative-caret-position="750">
+              <caret line="92" column="10" lean-forward="false" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpRequestBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/net/HttpRequestBuilder.java">
+      <file leaf-file-name="LandsAndDungeonsClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/LandsAndDungeonsClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="92" column="25" lean-forward="false" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Extensions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/assets/Extensions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -164,28 +169,51 @@
       <file leaf-file-name="StateStackManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/manager/StateStackManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="135">
+              <caret line="28" column="63" lean-forward="false" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
+              <folding>
+                <element signature="e#1642#1643#0" expanded="true" />
+                <element signature="e#1674#1675#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoadingScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/LoadingScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="23" column="52" lean-forward="false" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="IntroState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/IntroState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="69" lean-forward="false" selection-start-line="44" selection-start-column="69" selection-end-line="44" selection-end-column="69" />
+            <state relative-caret-position="75">
+              <caret line="25" column="63" lean-forward="false" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Net.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/Net.java">
+      <file leaf-file-name="ConfigParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assetconfigparser/ConfigParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="362" column="26" lean-forward="false" selection-start-line="362" selection-start-column="26" selection-end-line="362" selection-end-column="26" />
+            <state relative-caret-position="135">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AssetManager.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/assetconfig/AssetManager.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -201,6 +229,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getMes</find>
+      <find>conf</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -212,7 +246,7 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\Kvche\.gradle\wrapper\dists\gradle-2.14.1-bin\2r579t5wehc7ew5kc8vfqezww\gradle-2.14.1" />
+        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -2025,7 +2059,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-api/2.2.0/2d07202e5fee0f1974b84c46f6d2099d3bab2ed8/gradle-api-2.2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/compilerCommon/2.2.0/14ba40b62620e733f6ee78d9992b6a3639cb9fbd/compilerCommon-2.2.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/compilerCommon/2.2.0/7af7ece41e181b8a0661c57dec844dd9726125d9/compilerCommon-2.2.0.jar" />
-                            <option value="$MAVEN_REPOSITORY$/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar" />
+                            <option value="$USER_HOME$/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.4/112ff54474f1f04ccf1384c92e39fdc566f0bb5e/asm-commons-5.0.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.4/5a556786086c23cd689a0328f8519db93821c04c/asm-commons-5.0.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-gradle/5.2.1/3c40c65126d6ec2289e8ca46aca7cdb5f818e545/proguard-gradle-5.2.1-sources.jar" />
@@ -2076,12 +2110,13 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/25.2.0/c0b3925aa340a05dae352c6af2c8dd7d47c51a52/lint-checks-25.2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.5.1/5b2072922a610a373aed03388f762b11b03d763d/ecj-4.5.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.5.1/bee1367ac12fb6a20b422ff8711ebeb4f0a42316/ecj-4.5.1.jar" />
-                            <option value="$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.2.0/2b596b3605c852ecfdb4bbad07246ddf11b10fbc/baseLibrary-2.2.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.2.0/e1d81f36ef9a5803689b3e888eb93a8759a17be0/baseLibrary-2.2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.5.3/e836b2a7348320a86c3bbd91a032486798e6ab98/antlr4-4.5.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.5.3/f35db7e4b2446e4174ba6a73db7bd6b3e6bb5da1/antlr4-4.5.3.jar" />
-                            <option value="$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4.jar" />
+                            <option value="$USER_HOME$/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.juniversalchardet/juniversalchardet/1.0.3/77979eaa98f90806f984155f44f63cc1fb60ac25/juniversalchardet-1.0.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.juniversalchardet/juniversalchardet/1.0.3/cd49678784c46aa8789c060538e0154013bb421b/juniversalchardet-1.0.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/25.2.0/4435cbf612836a0c92f32728d786f7de06b11dc1/annotations-25.2.0-sources.jar" />
@@ -2120,7 +2155,8 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.jimfs/jimfs/1.1/8fbd0579dc68aba6186935cc1bee21d2f3e7ec1c/jimfs-1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.1/1fdf61e5ba87e0e4676c22677e0b2fe3a05c2fd8/httpcore-4.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.1/33fc26c02f8043ab0ede19eadc8c9885386b255c/httpcore-4.1.jar" />
-                            <option value="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/f3f156cbff0e0fb0d64bfce31a352cce4a33bc19/commons-logging-1.1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.4/5310da9f90e843883309e9e0bf5950faa79882a0/commons-codec-1.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.4/4216af16d38465bbab0f3dff8efa14204f7a399a/commons-codec-1.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.external.lombok/lombok-ast/0.2.3/b4f90836c51edefa4a38c97877b709ed2c15ee32/lombok-ast-0.2.3-sources.jar" />
@@ -2151,7 +2187,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-api/2.2.0/2d07202e5fee0f1974b84c46f6d2099d3bab2ed8/gradle-api-2.2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/compilerCommon/2.2.0/14ba40b62620e733f6ee78d9992b6a3639cb9fbd/compilerCommon-2.2.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/compilerCommon/2.2.0/7af7ece41e181b8a0661c57dec844dd9726125d9/compilerCommon-2.2.0.jar" />
-                            <option value="$MAVEN_REPOSITORY$/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar" />
+                            <option value="$USER_HOME$/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.4/112ff54474f1f04ccf1384c92e39fdc566f0bb5e/asm-commons-5.0.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.4/5a556786086c23cd689a0328f8519db93821c04c/asm-commons-5.0.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-gradle/5.2.1/3c40c65126d6ec2289e8ca46aca7cdb5f818e545/proguard-gradle-5.2.1-sources.jar" />
@@ -2202,12 +2238,13 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/25.2.0/c0b3925aa340a05dae352c6af2c8dd7d47c51a52/lint-checks-25.2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.5.1/5b2072922a610a373aed03388f762b11b03d763d/ecj-4.5.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.5.1/bee1367ac12fb6a20b422ff8711ebeb4f0a42316/ecj-4.5.1.jar" />
-                            <option value="$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.2.0/2b596b3605c852ecfdb4bbad07246ddf11b10fbc/baseLibrary-2.2.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.2.0/e1d81f36ef9a5803689b3e888eb93a8759a17be0/baseLibrary-2.2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.5.3/e836b2a7348320a86c3bbd91a032486798e6ab98/antlr4-4.5.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.5.3/f35db7e4b2446e4174ba6a73db7bd6b3e6bb5da1/antlr4-4.5.3.jar" />
-                            <option value="$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4.jar" />
+                            <option value="$USER_HOME$/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.juniversalchardet/juniversalchardet/1.0.3/77979eaa98f90806f984155f44f63cc1fb60ac25/juniversalchardet-1.0.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.juniversalchardet/juniversalchardet/1.0.3/cd49678784c46aa8789c060538e0154013bb421b/juniversalchardet-1.0.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/25.2.0/4435cbf612836a0c92f32728d786f7de06b11dc1/annotations-25.2.0-sources.jar" />
@@ -2246,7 +2283,8 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.jimfs/jimfs/1.1/8fbd0579dc68aba6186935cc1bee21d2f3e7ec1c/jimfs-1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.1/1fdf61e5ba87e0e4676c22677e0b2fe3a05c2fd8/httpcore-4.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.1/33fc26c02f8043ab0ede19eadc8c9885386b255c/httpcore-4.1.jar" />
-                            <option value="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/f3f156cbff0e0fb0d64bfce31a352cce4a33bc19/commons-logging-1.1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.4/5310da9f90e843883309e9e0bf5950faa79882a0/commons-codec-1.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.4/4216af16d38465bbab0f3dff8efa14204f7a399a/commons-codec-1.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.external.lombok/lombok-ast/0.2.3/b4f90836c51edefa4a38c97877b709ed2c15ee32/lombok-ast-0.2.3-sources.jar" />
@@ -2277,7 +2315,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-api/2.2.0/2d07202e5fee0f1974b84c46f6d2099d3bab2ed8/gradle-api-2.2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/compilerCommon/2.2.0/14ba40b62620e733f6ee78d9992b6a3639cb9fbd/compilerCommon-2.2.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/compilerCommon/2.2.0/7af7ece41e181b8a0661c57dec844dd9726125d9/compilerCommon-2.2.0.jar" />
-                            <option value="$MAVEN_REPOSITORY$/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar" />
+                            <option value="$USER_HOME$/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.4/112ff54474f1f04ccf1384c92e39fdc566f0bb5e/asm-commons-5.0.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.4/5a556786086c23cd689a0328f8519db93821c04c/asm-commons-5.0.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-gradle/5.2.1/3c40c65126d6ec2289e8ca46aca7cdb5f818e545/proguard-gradle-5.2.1-sources.jar" />
@@ -2328,12 +2366,13 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/25.2.0/c0b3925aa340a05dae352c6af2c8dd7d47c51a52/lint-checks-25.2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.5.1/5b2072922a610a373aed03388f762b11b03d763d/ecj-4.5.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.5.1/bee1367ac12fb6a20b422ff8711ebeb4f0a42316/ecj-4.5.1.jar" />
-                            <option value="$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.2.0/2b596b3605c852ecfdb4bbad07246ddf11b10fbc/baseLibrary-2.2.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.2.0/e1d81f36ef9a5803689b3e888eb93a8759a17be0/baseLibrary-2.2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.5.3/e836b2a7348320a86c3bbd91a032486798e6ab98/antlr4-4.5.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.5.3/f35db7e4b2446e4174ba6a73db7bd6b3e6bb5da1/antlr4-4.5.3.jar" />
-                            <option value="$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4.jar" />
+                            <option value="$USER_HOME$/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.juniversalchardet/juniversalchardet/1.0.3/77979eaa98f90806f984155f44f63cc1fb60ac25/juniversalchardet-1.0.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.juniversalchardet/juniversalchardet/1.0.3/cd49678784c46aa8789c060538e0154013bb421b/juniversalchardet-1.0.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/25.2.0/4435cbf612836a0c92f32728d786f7de06b11dc1/annotations-25.2.0-sources.jar" />
@@ -2372,7 +2411,8 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.jimfs/jimfs/1.1/8fbd0579dc68aba6186935cc1bee21d2f3e7ec1c/jimfs-1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.1/1fdf61e5ba87e0e4676c22677e0b2fe3a05c2fd8/httpcore-4.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.1/33fc26c02f8043ab0ede19eadc8c9885386b255c/httpcore-4.1.jar" />
-                            <option value="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/f3f156cbff0e0fb0d64bfce31a352cce4a33bc19/commons-logging-1.1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.4/5310da9f90e843883309e9e0bf5950faa79882a0/commons-codec-1.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.4/4216af16d38465bbab0f3dff8efa14204f7a399a/commons-codec-1.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.external.lombok/lombok-ast/0.2.3/b4f90836c51edefa4a38c97877b709ed2c15ee32/lombok-ast-0.2.3-sources.jar" />
@@ -2403,7 +2443,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-api/2.2.0/2d07202e5fee0f1974b84c46f6d2099d3bab2ed8/gradle-api-2.2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/compilerCommon/2.2.0/14ba40b62620e733f6ee78d9992b6a3639cb9fbd/compilerCommon-2.2.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/compilerCommon/2.2.0/7af7ece41e181b8a0661c57dec844dd9726125d9/compilerCommon-2.2.0.jar" />
-                            <option value="$MAVEN_REPOSITORY$/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar" />
+                            <option value="$USER_HOME$/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.4/112ff54474f1f04ccf1384c92e39fdc566f0bb5e/asm-commons-5.0.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.4/5a556786086c23cd689a0328f8519db93821c04c/asm-commons-5.0.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.proguard/proguard-gradle/5.2.1/3c40c65126d6ec2289e8ca46aca7cdb5f818e545/proguard-gradle-5.2.1-sources.jar" />
@@ -2454,12 +2494,13 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/25.2.0/c0b3925aa340a05dae352c6af2c8dd7d47c51a52/lint-checks-25.2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.5.1/5b2072922a610a373aed03388f762b11b03d763d/ecj-4.5.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jdt.core.compiler/ecj/4.5.1/bee1367ac12fb6a20b422ff8711ebeb4f0a42316/ecj-4.5.1.jar" />
-                            <option value="$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.2.0/2b596b3605c852ecfdb4bbad07246ddf11b10fbc/baseLibrary-2.2.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.2.0/e1d81f36ef9a5803689b3e888eb93a8759a17be0/baseLibrary-2.2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.5.3/e836b2a7348320a86c3bbd91a032486798e6ab98/antlr4-4.5.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4/4.5.3/f35db7e4b2446e4174ba6a73db7bd6b3e6bb5da1/antlr4-4.5.3.jar" />
-                            <option value="$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4.jar" />
+                            <option value="$USER_HOME$/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.juniversalchardet/juniversalchardet/1.0.3/77979eaa98f90806f984155f44f63cc1fb60ac25/juniversalchardet-1.0.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.juniversalchardet/juniversalchardet/1.0.3/cd49678784c46aa8789c060538e0154013bb421b/juniversalchardet-1.0.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/25.2.0/4435cbf612836a0c92f32728d786f7de06b11dc1/annotations-25.2.0-sources.jar" />
@@ -2498,7 +2539,8 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.jimfs/jimfs/1.1/8fbd0579dc68aba6186935cc1bee21d2f3e7ec1c/jimfs-1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.1/1fdf61e5ba87e0e4676c22677e0b2fe3a05c2fd8/httpcore-4.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.1/33fc26c02f8043ab0ede19eadc8c9885386b255c/httpcore-4.1.jar" />
-                            <option value="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/f3f156cbff0e0fb0d64bfce31a352cce4a33bc19/commons-logging-1.1.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.4/5310da9f90e843883309e9e0bf5950faa79882a0/commons-codec-1.4-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.4/4216af16d38465bbab0f3dff8efa14204f7a399a/commons-codec-1.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.external.lombok/lombok-ast/0.2.3/b4f90836c51edefa4a38c97877b709ed2c15ee32/lombok-ast-0.2.3-sources.jar" />
@@ -2515,71 +2557,71 @@
               <option name="name" value="core" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/ant-1.9.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/ant-launcher-1.9.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-base-services-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-base-services-groovy-2.14.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-cli-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-core-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-docs-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-installation-beacon-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-jvm-services-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-launcher-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-logging-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-messaging-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-model-core-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-model-groovy-2.14.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-native-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-open-api-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-process-services-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-resources-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-tooling-api-2.14.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-ui-2.14.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-wrapper-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-docs-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-jvm-services-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/ant-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-process-services-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-resources-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-base-services-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-logging-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/ant-launcher-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-tooling-api-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-installation-beacon-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-messaging-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-core-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-base-services-groovy-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-model-core-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-model-groovy-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-launcher-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/gradle-open-api-2.14.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/groovy-all-2.4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-announce-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-antlr-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-build-comparison-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-build-init-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-code-quality-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-dependency-management-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-diagnostics-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-ear-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-ide-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-ide-native-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-ide-play-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-ivy-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-jacoco-2.14.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-javascript-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-jetty-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-language-groovy-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-language-java-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-language-jvm-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-language-native-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-language-scala-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-maven-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-osgi-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-platform-base-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-dependency-management-2.14.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-platform-jvm-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-platform-native-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-platform-play-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-language-scala-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-osgi-2.14.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-plugin-development-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-plugin-use-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-plugins-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-publish-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-reporting-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-resources-http-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-resources-s3-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-resources-sftp-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-scala-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-signing-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-sonar-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-language-jvm-2.14.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-test-kit-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-testing-base-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-testing-jvm-2.14.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-testing-native-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-plugin-use-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-publish-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-resources-http-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-language-native-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-resources-sftp-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-jacoco-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-build-init-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-plugins-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-ide-play-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-platform-native-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-reporting-2.14.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-tooling-api-builders-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-testing-native-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-testing-jvm-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-jetty-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-ide-native-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-scala-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-platform-play-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-ide-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-antlr-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-ear-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-signing-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-language-groovy-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-ivy-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-code-quality-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-language-java-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-announce-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-build-comparison-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-sonar-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-resources-s3-2.14.1.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-diagnostics-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-platform-base-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-testing-base-2.14.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.14.1-bin/2r579t5wehc7ew5kc8vfqezww/gradle-2.14.1/lib/plugins/gradle-maven-2.14.1.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -2598,57 +2640,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assetconfigparser/AssetConfigParser.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/manager/AssetManagerConfig.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/manager/AssetConfigKeys.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/skins/SkinAssetHolder.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/skins/SkinAssetHolderImpl.java" />
-        <option value="$PROJECT_DIR$/core/assetconfig/TexturesAtlasRegions.json" />
-        <option value="$PROJECT_DIR$/core/assetconfig/GuiAtlasRegions.json" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assetconfigparser/ConfigParser.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/fonts/BitmapFontAssetHolderImpl.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/manager/ClientAssetManagerClassImpl.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/preferences/GamePreferences.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/AndroidDefaults.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/GenericDefaults.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/preferences/AndroidPreferences.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/gui/HudScreen.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/gui/screens/HudScreen.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/gui/elements/UiElement.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/gui/screens/parts/HudScreenPart.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/AbstractAssetHolder.java" />
-        <option value="$PROJECT_DIR$/core/assetconfig/AssetManager.json" />
-        <option value="$PROJECT_DIR$/core/assets/packed/sgx-ui.json" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/configs/SgxUiSkinKeys.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/manager/ClientAssetManager.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/LoadingStateKeys.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/LandsAndDungeonsClient.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/manager/ClientAssetManagerImpl.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/LoadingScreen.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/TextureAtlasesKeys.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/IntroStateKeys.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/MainMenuStateKeys.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/IntroState.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/AboutStateKeys.java" />
         <option value="$PROJECT_DIR$/core/assets/screendata/AboutScreen.json" />
         <option value="$PROJECT_DIR$/desktop/src/ru/kvvartet/lndclient/desktop/DesktopLauncher.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/ScreenResolutions.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/ScreenResolution.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/SettingsStateKeys.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/SettingsState.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractState.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/preferences/DesktopPreferences.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/AndroidSettingsState.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AndroidSettingsState.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AboutState.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/DesktopSettingsState.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/AuthorizationStateKeys.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractSettingsState.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/preferences/AbstractPreferences.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/MainMenuState.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractAuthorizationState.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/controller/NetworkConfig.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/controller/listener/CommonListener.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/controller/listener/SignUpListener.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/controller/listener/SignUpResponseListener.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/controller/ClientControllerImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/controller/ClientController.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/manager/NetworkManager.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/manager/ClientNetworkManager.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractState.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/manager/StateManager.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/SignUpState.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractAuthorizationState.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/IntroState.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/LandsAndDungeonsClient.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/preferences/AuthorizationPreferences.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/LoginState.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/NetworkConfig.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/controller/AuthorizationControllerImpl.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/controller/AuthorizationController.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/config/NetworkConfig.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/websocket/handler/WebSocketConfig.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/manager/StateStackManager.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/websocket/WebSocketConfig.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/AboutStateKeys.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/AuthorizationStateKeys.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/MainMenuStateKeys.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/SettingsStateKeys.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/TextureAtlasesKeys.java" />
+        <option value="$PROJECT_DIR$/android/assets/core/assetconfig/AssetManager.json" />
+        <option value="$PROJECT_DIR$/android/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/core/assetconfig/AssetManager.json" />
       </list>
     </option>
   </component>
@@ -2668,11 +2710,9 @@
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="2" />
-    <option name="width" value="1378" />
-    <option name="height" value="733" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -2680,9 +2720,6 @@
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
-  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -2698,7 +2735,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
@@ -2722,7 +2758,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2733,7 +2768,18 @@
             <path>
               <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
               <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="assetconfig" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
@@ -2747,6 +2793,22 @@
               <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lndclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
+              <item name="assetconfigparser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
@@ -2763,7 +2825,47 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lndclient" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
@@ -2774,10 +2876,22 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="states" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="states" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2795,141 +2909,21 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.2.0" />
+    <property name="device.picker.selection" value="04160413a8440b02" />
+    <property name="android.profiler.active" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Kvche\Documents\GitHub\lands-and-dungeons-client\core\assets\gui" />
-      <recent name="C:\Users\Kvche\Documents\GitHub\lands-and-dungeons-client\core\assets\fonts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/android" />
       <recent name="C:\Users\Kvche\Documents\GitHub\lands-and-dungeons-client\core\assets\textures" />
       <recent name="C:\Users\Kvche\Documents\GitHub\lands-and-dungeons-client\core" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AboutState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/MainMenuState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/preferences/AbstractPreferences.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/preferences/DesktopPreferences.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/desktop/src/ru/kvvartet/lndclient/desktop/DesktopLauncher.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/lands-and-dungeons-client.iws</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractAuthorizationState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractSettingsState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AndroidSettingsState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/DesktopSettingsState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/LoginState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/SignUpState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/AuthorizationStateKeys.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/SettingsStateKeys.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/ScreenResolution.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/android/assets/core" />
+      <recent name="$PROJECT_DIR$/android" />
+      <recent name="C:\Users\Kvche\Documents\GitHub\lands-and-dungeons-client\core\assets\gui" />
+      <recent name="C:\Users\Kvche\Documents\GitHub\lands-and-dungeons-client\core\assets\fonts" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2943,7 +2937,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DesktopLauncher">
+  <component name="RunManager" selected="Android App.android">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -2967,7 +2961,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="android" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="android" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="android" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -3272,7 +3266,70 @@
       <option name="project" value="LOCAL" />
       <updated>1525301287540</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="preferences add">
+      <created>1525301313391</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1525301313391</updated>
+    </task>
+    <task id="LOCAL-00022" summary="signup state update with backend support">
+      <created>1525770419714</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1525770419714</updated>
+    </task>
+    <task id="LOCAL-00023" summary="signin state update with backend support">
+      <created>1525770470049</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1525770470049</updated>
+    </task>
+    <task id="LOCAL-00024" summary="network support add">
+      <created>1525770506038</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1525770506038</updated>
+    </task>
+    <task id="LOCAL-00025" summary="network support update">
+      <created>1525957559139</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1525957559139</updated>
+    </task>
+    <task id="LOCAL-00026" summary="authorization preferences add">
+      <created>1525957590145</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1525957590145</updated>
+    </task>
+    <task id="LOCAL-00027" summary="authorization controller add">
+      <created>1525957610194</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1525957610194</updated>
+    </task>
+    <task id="LOCAL-00028" summary="network manager add">
+      <created>1525957637051</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1525957637051</updated>
+    </task>
+    <task id="LOCAL-00029" summary="authorization controller signout session settings methods add">
+      <created>1525960518211</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1525960518211</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -3289,24 +3346,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25876662" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27811366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25634825" sideWeight="0.50858366" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1898428" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25783476" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18621524" sideWeight="0.4914163" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3319,7 +3375,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -3330,7 +3386,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <MESSAGE value="sample app built on desktop and andrioid" />
     <MESSAGE value="sample app built on desktop and android" />
     <MESSAGE value="initial interfaces and constants placeholders" />
     <MESSAGE value="fixup" />
@@ -3347,366 +3402,400 @@
     <MESSAGE value="-- cross-platform settings screens added (for desktop and Android)&#10;-- some minor refactoring in other states" />
     <MESSAGE value="user model add" />
     <MESSAGE value="client controller add" />
-    <option name="LAST_COMMIT_MESSAGE" value="client controller add" />
+    <MESSAGE value="preferences add" />
+    <MESSAGE value="signup state update with backend support" />
+    <MESSAGE value="signin state update with backend support" />
+    <MESSAGE value="network support add" />
+    <MESSAGE value="network support update" />
+    <MESSAGE value="authorization preferences add" />
+    <MESSAGE value="authorization controller add" />
+    <MESSAGE value="network manager add" />
+    <MESSAGE value="authorization controller signout session settings methods add" />
+    <option name="LAST_COMMIT_MESSAGE" value="authorization controller signout session settings methods add" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/assetconfig/TexturesAtlasRegions.json" />
-    <entry file="file://$PROJECT_DIR$/core/assetconfig/GuiAtlasRegions.json" />
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/preferences/GamePreferences.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/AndroidDefaults.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/DesktopDefaults.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/GenericDefaults.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/BitmapFontGenerator.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/manager/AssetConfigKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/gui/elements/UiElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/assets/AssetManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/fonts/BitmapFontAssetHolderImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="50" column="75" lean-forward="false" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/gui/screens/HudScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="60">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/gui/screens/parts/HudScreenPart.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        <state relative-caret-position="165">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/assets/packed/sgx-ui.json">
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8823">
-          <caret line="519" column="1" lean-forward="false" selection-start-line="519" selection-start-column="1" selection-end-line="519" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/utils/Disposable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/net/Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="40" column="32" lean-forward="false" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/manager/NetworkManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/manager/StateManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/manager/requests/StateManagerRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/manager/StateStackManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/GameState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/AssetHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assetconfigparser/AssetConfigParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/skins/SkinAssetHolderImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/holders/AbstractAssetHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/manager/ClientAssetManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/manager/ClientAssetManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/LandsAndDungeonsClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/assetconfig/AssetManager.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assetconfigparser/ConfigParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/LoadingStateKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/LoadingScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="36" column="55" lean-forward="true" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/IntroState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="117" column="5" lean-forward="false" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/ru/kvvartet/lndclient/desktop/DesktopLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/preferences/AndroidPreferences.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/SettingsStateKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/AboutStateKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/ScreenResolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/preferences/DesktopPreferences.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="39" lean-forward="true" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assets/configs/SgxUiSkinKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AndroidSettingsState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AboutState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2057">
-          <caret line="145" column="41" lean-forward="false" selection-start-line="145" selection-start-column="41" selection-end-line="145" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/IntroStateKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/TextureAtlasesKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/DesktopSettingsState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/MainMenuStateKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/AuthorizationStateKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="75" lean-forward="false" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/preferences/AbstractPreferences.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="125" column="0" lean-forward="true" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-          <folding>
-            <element signature="e#2651#2652#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/MainMenuState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="108" column="21" lean-forward="false" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
-          <folding>
-            <element signature="e#4289#4671#0" expanded="true" />
-            <element signature="e#4670#4671#0" expanded="true" />
-            <element signature="e#4976#5415#0" expanded="true" />
-            <element signature="e#5414#5415#0" expanded="true" />
-            <element signature="e#5719#6155#0" expanded="true" />
-            <element signature="e#6154#6155#0" expanded="true" />
-            <element signature="e#6450#6782#0" expanded="true" />
-            <element signature="e#6781#6782#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractSettingsState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="203" column="21" lean-forward="false" selection-start-line="203" selection-start-column="21" selection-end-line="203" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractAuthorizationState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+        <state relative-caret-position="225">
+          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/SignUpState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="89" column="38" lean-forward="false" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
+        <state relative-caret-position="279">
+          <caret line="145" column="59" lean-forward="false" selection-start-line="145" selection-start-column="59" selection-end-line="145" selection-end-column="59" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#1437#1612#0" expanded="true" />
-            <element signature="e#1611#1612#0" expanded="true" />
-            <element signature="e#1715#1890#0" expanded="true" />
-            <element signature="e#1889#1890#0" expanded="true" />
-            <element signature="e#1990#2163#0" expanded="true" />
-            <element signature="e#2162#2163#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1539#1540#0" expanded="false" />
+            <element signature="e#1574#1575#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/jre/lib/rt.jar!/java/net/HttpCookie.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4298">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/preferences/AndroidPreferences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AndroidSettingsState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/preferences/DesktopPreferences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-499">
+          <caret line="9" column="64" lean-forward="false" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/jre/lib/rt.jar!/java/lang/String.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1474">
+          <caret line="1116" column="25" lean-forward="false" selection-start-line="1116" selection-start-column="25" selection-end-line="1116" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/GameState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="50" lean-forward="false" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/jre/lib/rt.jar!/java/util/Scanner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="657" column="23" lean-forward="false" selection-start-line="657" selection-start-column="23" selection-end-line="657" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/DesktopSettingsState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractSettingsState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="46" column="50" lean-forward="false" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/preferences/AuthorizationPreferences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/ru/kvvartet/lndclient/AndroidLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/utils/Json.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="710" column="0" lean-forward="false" selection-start-line="710" selection-start-column="0" selection-end-line="710" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/scenes/scene2d/Stage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9945">
+          <caret line="740" column="0" lean-forward="true" selection-start-line="740" selection-start-column="0" selection-end-line="740" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractAuthorizationState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="70" column="15" lean-forward="false" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/config/websocket.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="84" column="88" lean-forward="false" selection-start-line="84" selection-start-column="88" selection-end-line="84" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/config/NetworkConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assetconfig/AssetManager.json" />
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/websocket/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.8/bac17f395be5010619b31280fe84e9f53118d0b9/gdx-1.9.8-sources.jar!/com/badlogic/gdx/utils/JsonReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/AuthorizationStateKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/IntroStateKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/MainMenuStateKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/SettingsStateKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/TextureAtlasesKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/LoadingStateKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/AboutStateKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="58" lean-forward="false" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/core/assetconfig/AssetManager.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="78" lean-forward="false" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assetconfigparser/AssetConfigParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assetconfigparser/ConfigParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/assetconfig/AssetManager.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/LoadingScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="23" column="52" lean-forward="false" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/IntroState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="25" column="63" lean-forward="false" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/LoginState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="80" column="88" lean-forward="false" selection-start-line="80" selection-start-column="88" selection-end-line="80" selection-end-column="88" />
+        <state relative-caret-position="2220">
+          <caret line="176" column="20" lean-forward="false" selection-start-line="176" selection-start-column="20" selection-end-line="176" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/controller/AuthorizationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="64" lean-forward="false" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/LandsAndDungeonsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/manager/StateStackManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="28" column="63" lean-forward="false" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2100#2101#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <element signature="e#1674#1675#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/manager/ClientNetworkManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/network/controller/AuthorizationControllerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="92" column="10" lean-forward="false" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
