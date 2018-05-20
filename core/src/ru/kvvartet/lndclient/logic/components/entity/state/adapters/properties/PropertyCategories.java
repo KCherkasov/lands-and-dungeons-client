@@ -22,7 +22,7 @@ public final class PropertyCategories {
 
     public static final int PC_ITEM_PARTS_RARITIES = 36;
     public static final int PC_ITEM_PARTS_IDS = 37;
-    public static final int PC_ITEM_DROP_CHANCE = 38;
+    public static final int PC_DROP_CHANCE = 38;
     public static final int PC_ITEM_ID = 39;
 
     public static final int PC_ITEMS_QUANTITY = 40;

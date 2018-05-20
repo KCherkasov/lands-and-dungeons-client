@@ -13,6 +13,7 @@ public abstract class AbstractComponent implements Component {
     protected final HashMap<String, MessageProcessor> handlers = new HashMap<>();
 
     protected AbstractComponent() {
+        initHandlers();
     }
 
     @Override
@@ -64,4 +65,6 @@ public abstract class AbstractComponent implements Component {
             handlers.get(message.getClass().getName()).accept(message);
         }
     }
+
+    protected abstract void initHandlers();
 }

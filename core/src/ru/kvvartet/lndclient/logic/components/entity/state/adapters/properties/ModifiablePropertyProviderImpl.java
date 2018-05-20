@@ -1,5 +1,6 @@
 package ru.kvvartet.lndclient.logic.components.entity.state.adapters.properties;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import ru.kvvartet.lndclient.logic.components.entity.state.dataholders.DataHolder;
@@ -38,6 +39,12 @@ public class ModifiablePropertyProviderImpl extends ModifiableDataHolderProvider
     @Override
     public @NotNull Set<Integer> propertiesKeyset() {
         return keyset();
+    }
+
+    @JsonIgnore
+    @Override
+    public @NotNull Map<Integer, DataHolder> getAvailableProperties() {
+        return getAvailableHolders();
     }
 
     @Override

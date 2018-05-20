@@ -4,6 +4,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import ru.kvvartet.lndclient.logic.components.entity.state.dataholders.DataHolder;
 
+import java.util.Map;
 import java.util.Set;
 
 public interface PropertyProvider {
@@ -16,4 +17,6 @@ public interface PropertyProvider {
     @NotNull Integer getPropertyValue(@NotNull Integer propertyKey, @NotNull Integer dataIndex);
 
     @NotNull Set<Integer> propertiesKeyset();
+
+    @NotNull Map<Integer, DataHolder> getAvailableProperties();
 }

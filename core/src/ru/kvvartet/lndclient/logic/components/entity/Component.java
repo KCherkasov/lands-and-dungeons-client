@@ -23,4 +23,6 @@ public interface Component {
     @NotNull Boolean isToDispose();
 
     void dispose();
+
+    @NotNull Integer getId();
 }
