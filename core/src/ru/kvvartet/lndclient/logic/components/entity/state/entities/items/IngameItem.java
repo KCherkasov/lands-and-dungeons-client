@@ -7,8 +7,8 @@ import ru.kvvartet.lndclient.logic.components.entity.state.adapters.properties.P
 import ru.kvvartet.lndclient.logic.components.entity.state.adapters.properties.PropertyProviderImpl;
 import ru.kvvartet.lndclient.logic.components.entity.state.adapters.properties.SingleValueProperty;
 import ru.kvvartet.lndclient.logic.components.entity.state.dataholders.DataHolder;
-import ru.kvvartet.lndclient.logic.components.entity.state.entities.models.ItemBlueprint;
-import ru.kvvartet.lndclient.logic.components.entity.state.entities.models.ItemModel;
+import ru.kvvartet.lndclient.logic.components.entity.state.entities.models.items.ItemBlueprint;
+import ru.kvvartet.lndclient.logic.components.entity.state.entities.models.items.ItemModel;
 import ru.kvvartet.lndclient.logic.components.entity.state.interfaces.Levelable;
 
 import java.util.HashMap;

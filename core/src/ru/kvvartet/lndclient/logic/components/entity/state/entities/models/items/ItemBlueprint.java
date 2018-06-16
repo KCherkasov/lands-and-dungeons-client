@@ -1,4 +1,4 @@
-package ru.kvvartet.lndclient.logic.components.entity.state.entities.models;
+package ru.kvvartet.lndclient.logic.components.entity.state.entities.models.items;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;

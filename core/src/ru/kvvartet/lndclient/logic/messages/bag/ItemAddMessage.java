@@ -3,7 +3,7 @@ package ru.kvvartet.lndclient.logic.messages.bag;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import ru.kvvartet.lndclient.logic.components.entity.state.entities.models.ItemModel;
+import ru.kvvartet.lndclient.logic.components.entity.state.entities.models.items.ItemModel;
 import ru.kvvartet.lndclient.logic.messages.Message;
 import ru.kvvartet.lndclient.util.Constants;
 

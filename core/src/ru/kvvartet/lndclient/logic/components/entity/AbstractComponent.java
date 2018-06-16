@@ -18,6 +18,9 @@ public abstract class AbstractComponent implements Component {
 
     @Override
     public void update(float delta) {
+        if (toDispose) {
+            return;
+        }
         while (!inboxMessages.isEmpty()) {
             final Message message = inboxMessages.poll();
             if (message != null) {
