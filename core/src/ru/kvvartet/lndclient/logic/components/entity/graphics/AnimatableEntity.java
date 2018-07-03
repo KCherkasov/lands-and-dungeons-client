@@ -62,7 +62,7 @@ public class AnimatableEntity extends GameEntityComponent {
             updateCurrentAnimation();
 
             final SequenceAction movementSequence = new SequenceAction();
-            for (GameEntityComponent tile : ((MovementMessage) message).getRoute()) {
+            for (MapNodeGraphic tile : ((MovementMessage) message).getRoute()) {
                 final MoveToAction coords = new MoveToAction();
                 coords.setX(tile.getWidget().getX());
                 coords.setY(tile.getWidget().getY());

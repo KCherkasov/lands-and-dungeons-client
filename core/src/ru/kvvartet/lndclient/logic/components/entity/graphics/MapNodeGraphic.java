@@ -3,6 +3,7 @@ package ru.kvvartet.lndclient.logic.components.entity.graphics;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.scenes.scene2d.Actor;
 import org.jetbrains.annotations.NotNull;
+import ru.kvvartet.lndclient.logic.components.entity.state.interfaces.MapNode;
 import ru.kvvartet.lndclient.logic.messages.battle.graphics.tiles.AoeMessage;
 import ru.kvvartet.lndclient.util.graphics.GameEntityWidgets;
 
@@ -11,10 +12,11 @@ import java.util.Map;
 
 public class MapNodeGraphic extends GameEntityComponent {
     private final Map<Integer, MapNodeGraphic> adjacentTiles = new HashMap<>();
-    // TODO: MapNode data component here
+    private final MapNode data;
 
-    public MapNodeGraphic(@NotNull TextureAtlas atlas) {
+    public MapNodeGraphic(@NotNull TextureAtlas atlas, @NotNull MapNode data) {
         super(atlas);
+        this.data = data;
     }
 
     @Override
