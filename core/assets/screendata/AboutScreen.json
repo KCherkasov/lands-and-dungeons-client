@@ -2,7 +2,7 @@
   "title" : {
     "class" : "java.util.HashMap",
     "name" : "Lands and Dungeons",
-    "ver" : "0.0.1a"
+    "ver" : "0.0.2a"
   },
   "team_members" : {
     "class" : "java.util.HashMap",

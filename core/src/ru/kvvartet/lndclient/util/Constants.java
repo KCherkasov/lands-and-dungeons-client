@@ -15,4 +15,6 @@ public final class Constants {
     public static final int WRONG_INDEX = -1;
 
     public static final String EMPTY_LINE = "";
+
+    public static final String COLON = ": ";
 }

@@ -4,48 +4,11 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49567ccf-1451-4f9d-be28-89b6c925fe07" name="Default" comment="-- login erasure fix-up;&#10;-- component system barebones">
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/BattlefieldStateKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/AnimatableEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/AnimatableImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/BattleMapGraphic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/GameEntityComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/MapNodeGraphic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/Tooltip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/aliveentities/AbstractAliveEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/flyweights/CharacterRace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/aliveentities/AbstractAliveEntityModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/aliveentities/NpcModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/aliveentities/UserCharacterModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/flyweights/CharacterRaceModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/interfaces/Ability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/interfaces/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/interfaces/AliveEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/interfaces/CharacterRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/interfaces/DecisionMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/interfaces/Effect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/aliveentities/AttackMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/aliveentities/DieMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/aliveentities/HealMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/aliveentities/HurtMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/aliveentities/MovementMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/tiles/AoeMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/tiles/SelectMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/graphics/AnimationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/graphics/GameEntityWidgets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/AbstractComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/AbstractComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/GraphicsComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/GraphicsComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/items/IngameItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/items/IngameItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/items/containers/CharacterDoll.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/items/containers/CharacterDoll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/items/containers/StorageBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/items/containers/StorageBag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/EmptyBagModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/items/EmptyBagModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/FilledBagModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/items/FilledBagModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/ItemBlueprint.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/items/ItemBlueprint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/ItemModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/items/ItemModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/bag/ItemAddMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/bag/ItemAddMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/graphics/Animations.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/graphics/AnimationParts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lands-and-dungeons-client.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/lands-and-dungeons-client.ipr" afterDir="false" />
+    <list default="true" id="49567ccf-1451-4f9d-be28-89b6c925fe07" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/TableTooltip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/TooltipData.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/TooltipData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/TooltipEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/TooltipEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/multivalue/MultiValueField.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/multivalue/MultiValueField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lands-and-dungeons-client.iws" beforeDir="false" afterPath="$PROJECT_DIR$/lands-and-dungeons-client.iws" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -129,20 +92,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GraphicsComponent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/GraphicsComponent.java">
+      <file leaf-file-name="MultiValueField.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/multivalue/MultiValueField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MovementMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/aliveentities/MovementMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,11 +104,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AoeMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/tiles/AoeMessage.java">
+      <file leaf-file-name="Tooltip.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/Tooltip.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="119">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TooltipData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/TooltipData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,11 +125,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapNodeGraphic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/MapNodeGraphic.java">
+      <file leaf-file-name="TableTooltip.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/TableTooltip.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="17">
+              <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1430#1431#0" expanded="true" />
+                <element signature="e#1457#1458#0" expanded="true" />
+                <element signature="e#3051#3090#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TooltipEntry.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/TooltipEntry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,11 +152,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BattleMapGraphic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/BattleMapGraphic.java">
+      <file leaf-file-name="ListField.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/multivalue/ListField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="289">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -186,11 +164,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelectMessage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/tiles/SelectMessage.java">
+      <file leaf-file-name="MapField.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/multivalue/MapField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="272">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SetField.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/multivalue/SetField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2607,57 +2597,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/Message.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/ItemBlueprint.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/EmptyBagModel.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/FilledBagModel.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/equipment/EquipmentSlots.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/equipment/EquipmentSlot.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/CharacterStats.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/characters/CharacterRatings.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/items/containers/CharacterDoll.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/bag/ItemRemoveMessage.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/items/containers/StorageBag.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/HudComponent.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/SpriteComponent.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/GraphicsComponent.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/graphics/Animations.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/BattlefieldStateKeys.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/graphics/Tooltip.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/Tooltip.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/interfaces/Action.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/interfaces/CharacterRole.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/interfaces/Ability.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/interfaces/Effect.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/interfaces/AliveEntity.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/aliveentities/AbstractAliveEntity.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/AbstractAliveEntityModel.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/aliveentities/NpcModel.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/aliveentities/AbstractAliveEntityModel.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/aliveentities/UserCharacterModel.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/flyweights/CharacterRaceModel.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/graphics/AnimationParts.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/GameEntityComponent.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/graphics/AnimationConfig.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/BattleMessage.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/BattleMessage.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/state/BattleMessage.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/MovementEvent.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/MovementMessage.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/AttackMessage.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/HurtMessage.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/DieMessage.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/AbstractComponent.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/Constants.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/HealMessage.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/tiles/AoeMessage.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/graphics/GameEntityWidgets.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/AnimatableImage.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/AnimatableEntity.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/MapNodeGraphic.java" />
-        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/MapNodeGraphic.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/BattleMapGraphic.java" />
         <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/tiles/SelectMessage.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/aliveentities/MovementMessage.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/AnimatableEntity.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/map/TileNode.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/shared/MapNode.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/DigitsPairIndices.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/Directions.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/interfaces/MapNode.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/map/Tile.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/MapNodeGraphic.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/Tooltip.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/TooltipEntry.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/TooltipCaption.java" />
+        <option value="$PROJECT_DIR$/core/assets/screendata/AboutScreen.json" />
+        <option value="$PROJECT_DIR$/core/assets/tooltips/mappings.json" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/TooltipField.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/AbstractTooltipEntry.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/AbstractTooltipField.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/entries/AbstractTooltipField.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/entries/fields/AbstractTooltipField.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/TooltipData.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/TooltipData.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/TooltipCaption.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/Constants.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/SingleValueEntry.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/MultiValueEntry.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assetconfigparser/ConfigParser.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/tooltipcaptionparser/ConfigParser.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/tooltipcaptionparser/TooltipCaptionParser.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/AbstractTooltipField.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/TooltipField.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/MultiValueField.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/multivalue/ListField.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/multivalue/MapField.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/multivalue/SetValue.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/multivalue/SetField.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/TooltipEntry.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/multivalue/MultiValueField.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/TooltipData.java" />
+        <option value="$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/TableTooltip.java" />
       </list>
     </option>
   </component>
@@ -2697,9 +2687,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2716,21 +2703,13 @@
               <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
               <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="assetconfig" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
               <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="packed" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
@@ -2738,6 +2717,13 @@
               <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="screendata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="tooltips" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
@@ -2759,81 +2745,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lndclient" type="462c0819:PsiDirectoryNode" />
               <item name="assetconfigparser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="holders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="holders" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="holders" type="462c0819:PsiDirectoryNode" />
-              <item name="graphics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="holders" type="462c0819:PsiDirectoryNode" />
-              <item name="skins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="holders" type="462c0819:PsiDirectoryNode" />
-              <item name="sound" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
@@ -2990,6 +2901,64 @@
               <item name="logic" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="graphics" type="462c0819:PsiDirectoryNode" />
+              <item name="tooltips" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="graphics" type="462c0819:PsiDirectoryNode" />
+              <item name="tooltips" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="entries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="graphics" type="462c0819:PsiDirectoryNode" />
+              <item name="tooltips" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="entries" type="462c0819:PsiDirectoryNode" />
+              <item name="fields" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="graphics" type="462c0819:PsiDirectoryNode" />
+              <item name="tooltips" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="entries" type="462c0819:PsiDirectoryNode" />
+              <item name="fields" type="462c0819:PsiDirectoryNode" />
+              <item name="multivalue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
               <item name="input" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -3013,32 +2982,7 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
               <item name="state" type="462c0819:PsiDirectoryNode" />
-              <item name="abstracts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="state" type="462c0819:PsiDirectoryNode" />
               <item name="adapters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="state" type="462c0819:PsiDirectoryNode" />
-              <item name="adapters" type="462c0819:PsiDirectoryNode" />
-              <item name="affectors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
@@ -3114,21 +3058,7 @@
               <item name="entity" type="462c0819:PsiDirectoryNode" />
               <item name="state" type="462c0819:PsiDirectoryNode" />
               <item name="entities" type="462c0819:PsiDirectoryNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="state" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
@@ -3181,9 +3111,7 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
               <item name="state" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="items" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
@@ -3255,6 +3183,14 @@
               <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lndclient" type="462c0819:PsiDirectoryNode" />
+              <item name="tooltipcaptionparser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lands-and-dungeons-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lands-and-dungeons-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lndclient" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -3297,6 +3233,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3316,13 +3255,16 @@
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.2.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Kvche\Documents\GitHub\lands-and-dungeons-client\core\assets\textures" />
-      <recent name="C:\Users\Kvche\Documents\GitHub\lands-and-dungeons-client\core" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.kvvartet.lndclient.logic.components.entity.graphics.tooltips.data" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kvche\Documents\GitHub\lands-and-dungeons-client\core\assets\gui" />
       <recent name="C:\Users\Kvche\Documents\GitHub\lands-and-dungeons-client\core\assets\fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kvche\Documents\GitHub\lands-and-dungeons-client\core\assets\textures" />
+      <recent name="C:\Users\Kvche\Documents\GitHub\lands-and-dungeons-client\core" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -3474,7 +3416,16 @@
       <workItem from="1528800468935" duration="3203000" />
       <workItem from="1528870569436" duration="4717000" />
       <workItem from="1528907614219" duration="11813000" />
-      <workItem from="1529147073181" duration="591000" />
+      <workItem from="1529147073181" duration="4692000" />
+      <workItem from="1529232132994" duration="1314000" />
+      <workItem from="1530513991274" duration="3272000" />
+      <workItem from="1530656011546" duration="2970000" />
+      <workItem from="1530872820366" duration="1472000" />
+      <workItem from="1531050870850" duration="3553000" />
+      <workItem from="1531081380476" duration="8000" />
+      <workItem from="1531087819120" duration="4046000" />
+      <workItem from="1531173431460" duration="6895000" />
+      <workItem from="1531258957259" duration="5036000" />
     </task>
     <task id="LOCAL-00001" summary="sample app built on desktop and android">
       <created>1522875653610</created>
@@ -3637,11 +3588,32 @@
       <option name="project" value="LOCAL" />
       <updated>1526854462407</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="-- graphic components WIP&#10;-- graphic messages added&#10;-- character animations implemented">
+      <created>1529149111915</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1529149111915</updated>
+    </task>
+    <task id="LOCAL-00025" summary="-- more code for AliveEntity graphic component,&#10;-- Tile state component">
+      <created>1530659256640</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1530659256640</updated>
+    </task>
+    <task id="LOCAL-00026" summary="-- custom Tooltip parts">
+      <created>1531260936778</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1531260936778</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="362935000" />
+    <option name="totallyTimeSpent" value="395602000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3665,7 +3637,7 @@
       <window_info anchor="bottom" id="Logcat" order="8" weight="0.32838285" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Build" order="14" sideWeight="0.49924356" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Build" order="14" sideWeight="0.49924356" weight="0.33333334" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -3747,7 +3719,10 @@
     <MESSAGE value="-- login erasure fix-up;&#10;-- component system barebones" />
     <MESSAGE value="-- properties / affectors system implemented&#10;-- provider interfaces and containers for properties / affectors" />
     <MESSAGE value="-- components and component pools barebones for input, graphics and entity state;&#10;-- utility files;&#10;-- state components hierarchy WIP;&#10;-- Property and Affector classes hierarchy implemented on client;&#10;-- state components written for items, bags and character dolls" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- components and component pools barebones for input, graphics and entity state;&#10;-- utility files;&#10;-- state components hierarchy WIP;&#10;-- Property and Affector classes hierarchy implemented on client;&#10;-- state components written for items, bags and character dolls" />
+    <MESSAGE value="-- graphic components WIP&#10;-- graphic messages added&#10;-- character animations implemented" />
+    <MESSAGE value="-- more code for AliveEntity graphic component,&#10;-- Tile state component" />
+    <MESSAGE value="-- custom Tooltip parts" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- custom Tooltip parts" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -3757,197 +3732,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/characters/CharacterStats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/characters/CharacterRatings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/items/containers/CharacterDoll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/bag/ItemRemoveMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/HudComponent.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/SpriteComponent.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/MainMenuStateKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="3" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/GameState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/configkeys/BattlefieldStateKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/Tooltip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/interfaces/Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/interfaces/CharacterRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/interfaces/Ability.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/interfaces/Effect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/interfaces/DecisionMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/interfaces/AliveEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/items/EmptyBagModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/items/FilledBagModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/items/ItemBlueprint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/items/ItemModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/aliveentities/AbstractAliveEntityModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/adapters/properties/PropertyCategories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="53" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/flyweights/CharacterRaceModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/aliveentities/UserCharacterModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/models/aliveentities/NpcModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/aliveentities/AbstractAliveEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/flyweights/CharacterRace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/graphics/AnimationParts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/graphics/AnimationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/state/BattleMessage.java" />
     <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/BattleMessage.java" />
     <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/items/IngameItem.java">
@@ -3964,13 +3748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/AbstractComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -3982,13 +3759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -4020,34 +3790,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/aliveentities/MovementMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/AnimatableEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/GameEntityComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/GraphicsComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -4069,19 +3815,107 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/aliveentities/MovementMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/GraphicsComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/AnimatableEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/tiles/SelectMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/DigitsPairIndices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/Directions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/interfaces/MapNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/entities/map/Tile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/graphics/AnimationParts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/graphics/AnimationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/MapNodeGraphic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/MapNodeGraphic.java">
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/MainMenuState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AbstractState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="67" column="57" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -4089,18 +3923,203 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/assets/screendata/AboutScreen.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/assets/tooltips/mappings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/util/characters/CharacterStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assetconfigparser/AssetConfigParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="9" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/assetconfigparser/ConfigParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/SingleValueField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="37" column="71" lean-forward="true" selection-start-line="23" selection-start-column="53" selection-end-line="37" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/TooltipCaption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/messages/battle/graphics/tiles/SelectMessage.java">
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/TooltipField.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="136">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/tooltipcaptionparser/ConfigParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/tooltipcaptionparser/TooltipCaptionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/client/states/state/AboutState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="79" column="42" selection-start-line="79" selection-start-column="42" selection-end-line="87" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/AbstractTooltipField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/multivalue/ListField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/multivalue/MapField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/multivalue/SetField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/TooltipEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/entries/fields/multivalue/MultiValueField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/Tooltip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/state/adapters/properties/ModifiablePropertyProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/TooltipData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/ru/kvvartet/lndclient/logic/components/entity/graphics/tooltips/data/TableTooltip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1457#1458#0" expanded="true" />
+            <element signature="e#3051#3090#0" expanded="true" />
           </folding>
         </state>
       </provider>
