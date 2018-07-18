@@ -13,6 +13,8 @@ import com.badlogic.gdx.scenes.scene2d.ui.ProgressBar;
 import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
 import org.jetbrains.annotations.NotNull;
+import ru.kvvartet.lndclient.logic.components.entity.graphics.tooltips.makers.AnimatableEntityTooltipMaker;
+import ru.kvvartet.lndclient.logic.components.entity.graphics.tooltips.makers.TooltipMaker;
 import ru.kvvartet.lndclient.logic.components.entity.state.adapters.properties.PropertyCategories;
 import ru.kvvartet.lndclient.logic.components.entity.state.entities.aliveentities.AbstractAliveEntity;
 import ru.kvvartet.lndclient.logic.messages.battle.graphics.aliveentities.DieMessage;
@@ -52,6 +54,7 @@ public class AnimatableEntity extends GameEntityComponent {
         sprite = new AnimatableImage(animations.get(AnimationParts.AP_IDLE));
 
         this.dataComponent = dataComponent;
+        maker = initTooltipMaker();
         healthbar = makeHealthbar();
     }
 
@@ -156,6 +159,11 @@ public class AnimatableEntity extends GameEntityComponent {
         pixmap.dispose();
 
         return drawable;
+    }
+
+    @Override
+    protected @NotNull TooltipMaker initTooltipMaker() {
+        return new AnimatableEntityTooltipMaker(dataComponent);
     }
 
     private void updateHealthbar() {

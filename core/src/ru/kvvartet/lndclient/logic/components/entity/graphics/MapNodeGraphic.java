@@ -2,7 +2,10 @@ package ru.kvvartet.lndclient.logic.components.entity.graphics;
 
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.scenes.scene2d.Actor;
+import com.badlogic.gdx.scenes.scene2d.ui.Tooltip;
 import org.jetbrains.annotations.NotNull;
+import ru.kvvartet.lndclient.logic.components.entity.graphics.tooltips.makers.MapNodeTooltipMaker;
+import ru.kvvartet.lndclient.logic.components.entity.graphics.tooltips.makers.TooltipMaker;
 import ru.kvvartet.lndclient.logic.components.entity.state.interfaces.MapNode;
 import ru.kvvartet.lndclient.logic.messages.battle.graphics.tiles.AoeMessage;
 import ru.kvvartet.lndclient.util.graphics.GameEntityWidgets;
@@ -11,12 +14,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MapNodeGraphic extends GameEntityComponent {
+
     private final Map<Integer, MapNodeGraphic> adjacentTiles = new HashMap<>();
     private final MapNode data;
 
     public MapNodeGraphic(@NotNull TextureAtlas atlas, @NotNull MapNode data) {
         super(atlas);
         this.data = data;
+        maker = initTooltipMaker();
+        widget.addListener(new Tooltip<>(maker.makeTooltip()));
     }
 
     @Override
@@ -53,6 +59,10 @@ public class MapNodeGraphic extends GameEntityComponent {
         super.update(timeDelta);
     }
 
+    public @NotNull MapNode getData() {
+        return data;
+    }
+
     public void setAdjacentTiles(@NotNull Map<Integer, MapNodeGraphic> neighborTiles) {
         adjacentTiles.putAll(neighborTiles);
     }
@@ -61,6 +71,11 @@ public class MapNodeGraphic extends GameEntityComponent {
         if (!adjacentTiles.containsKey(direction)) {
             adjacentTiles.put(direction, neighbor);
         }
+    }
+
+    @Override
+    protected @NotNull TooltipMaker initTooltipMaker() {
+        return new MapNodeTooltipMaker(data);
     }
 
     private void checkAnimations() {

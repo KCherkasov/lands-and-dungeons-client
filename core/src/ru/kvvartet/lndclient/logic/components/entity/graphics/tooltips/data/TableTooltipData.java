@@ -14,10 +14,7 @@ import ru.kvvartet.lndclient.logic.components.entity.state.adapters.affectors.*;
 import ru.kvvartet.lndclient.logic.components.entity.state.adapters.properties.*;
 import ru.kvvartet.lndclient.logic.components.entity.state.dataholders.*;
 
-import java.util.ArrayDeque;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Queue;
+import java.util.*;
 
 public class TableTooltipData implements TooltipData {
     // TODO: Entry captions map json file and static holder for it
@@ -28,10 +25,7 @@ public class TableTooltipData implements TooltipData {
     private static final int AFFECTORS_CAPTION_ID = -11;
     private static final String AFFECTORS_CAPTION = "Affectors";
 
-    private static final String SET_SEQUENCE = "Set";
-    private static final String LIST_SEQUENCE = "List";
-    private static final String MAP_SEQUENCE = "Map";
-    private static final String SINGLE_VALUE_SEQUENCE = "SingleValue";
+    private static final Set<Integer> NO_IGNORED_KEYS = new HashSet<>();
 
     private final Map<Integer, TooltipEntry> data = new HashMap<>();
     private final Queue<Integer> entriesOrder = new ArrayDeque<>();
@@ -39,25 +33,42 @@ public class TableTooltipData implements TooltipData {
 
     public TableTooltipData(@NotNull Table widget,
                             @NotNull PropertyProvider properties,
-                            @NotNull AffectorProvider affectors) {
-        this(widget, properties);
+                            @NotNull AffectorProvider affectors,
+                            @NotNull Set<Integer> ignoredKeys) {
+        this(widget, properties, ignoredKeys);
         data.put(AFFECTORS_CAPTION_ID, new TooltipCaption(AFFECTORS_CAPTION));
         entriesOrder.offer(AFFECTORS_CAPTION_ID);
         for (Integer key: affectors.affectorsKeyset()) {
-            data.put(key, makeEntry(affectors.getAvailableAffectors().get(key), key));
-            entriesOrder.offer(key);
+            if (!ignoredKeys.contains(key)) {
+                data.put(key, makeEntry(affectors.getAvailableAffectors().get(key), key));
+                entriesOrder.offer(key);
+            }
+        }
+    }
+
+    public TableTooltipData(@NotNull Table widget,
+                            @NotNull PropertyProvider properties,
+                            @NotNull AffectorProvider affectors) {
+        this(widget, properties, affectors, NO_IGNORED_KEYS);
+    }
+
+    public TableTooltipData(@NotNull Table widget,
+                            @NotNull PropertyProvider properties,
+                            @NotNull Set<Integer> ignoredKeys) {
+        this.widget = widget;
+        data.put(PROPERTIES_CAPTION_ID, new TooltipCaption(PROPERTIES_CAPTION));
+        entriesOrder.offer(PROPERTIES_CAPTION_ID);
+        for (Integer key : properties.propertiesKeyset()) {
+            if (!ignoredKeys.contains(key)) {
+                data.put(key, makeEntry(properties.getAvailableProperties().get(key), key));
+                entriesOrder.offer(key);
+            }
         }
     }
 
     public TableTooltipData(@NotNull Table widget,
                             @NotNull PropertyProvider properties) {
-        this.widget = widget;
-        data.put(PROPERTIES_CAPTION_ID, new TooltipCaption(PROPERTIES_CAPTION));
-        entriesOrder.offer(PROPERTIES_CAPTION_ID);
-        for (Integer key : properties.propertiesKeyset()) {
-            data.put(key, makeEntry(properties.getAvailableProperties().get(key), key));
-            entriesOrder.offer(key);
-        }
+        this(widget, properties, NO_IGNORED_KEYS);
     }
 
     @Override
